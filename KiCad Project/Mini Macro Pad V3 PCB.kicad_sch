@@ -4290,12 +4290,6 @@
 		(uuid "2e45bc86-1c36-428b-af49-1bf4babd2d1b")
 	)
 	(junction
-		(at 44.45 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "31621b2c-6a75-43e4-8192-1c8a6c7a8b67")
-	)
-	(junction
 		(at 96.52 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4366,12 +4360,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "65712a47-07d8-4412-beae-a37638085bb8")
-	)
-	(junction
-		(at 39.37 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "65abfb42-0e3c-4ae2-a7ef-dad4754793a6")
 	)
 	(junction
 		(at 144.78 156.21)
@@ -5656,16 +5644,6 @@
 			(type default)
 		)
 		(uuid "7688f357-6c52-4022-9511-09f506ab7b4f")
-	)
-	(wire
-		(pts
-			(xy 39.37 80.01) (xy 44.45 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77e8d312-3071-4ded-bea8-5b7b04e51b7f")
 	)
 	(wire
 		(pts
@@ -8487,7 +8465,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 171.45 73.66 0)
 			(effects
 				(font
@@ -8555,7 +8533,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 41.91 80.01 0)
 			(effects
 				(font
@@ -8824,7 +8802,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 46.99 158.75 0)
 			(effects
 				(font
@@ -9092,7 +9070,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 171.45 81.28 0)
 			(effects
 				(font
@@ -9827,7 +9805,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 31.75 113.03 0)
 			(effects
 				(font
@@ -10453,7 +10431,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 46.99 156.21 0)
 			(effects
 				(font
@@ -11867,7 +11845,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4125-xx-x-0190_6P_TopMnt_Horizontal"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_HCTL_HC-TYPE-C-16P-01A"
 			(at 31.75 166.37 0)
 			(effects
 				(font
