@@ -7605,6 +7605,16 @@
 		)
 		(uuid "ff7b19fe-e7a9-4496-b0a7-d237473743ef")
 	)
+	(label "MATRIX_R2"
+		(at 246.38 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0203d480-1823-438a-a040-41b2dbb848bf")
+	)
 	(label "MATRIX_R1"
 		(at 156.21 156.21 180)
 		(effects
@@ -7625,15 +7635,15 @@
 		)
 		(uuid "04b847b7-8ee7-4846-9b6b-2291965b0533")
 	)
-	(label "MATRIX_R4"
-		(at 246.38 88.9 180)
+	(label "MATRIX_R3"
+		(at 246.38 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "10dccf3f-c3e3-4a54-a505-2627c458e4a1")
+		(uuid "10b86ea5-f9ac-4100-958e-ba83332a108e")
 	)
 	(label "ENCODER_2_A"
 		(at 87.63 123.19 0)
@@ -7745,16 +7755,6 @@
 		)
 		(uuid "39e17b63-5311-4d2e-aad9-de7b17d88f2c")
 	)
-	(label "MATRIX_R5"
-		(at 246.38 91.44 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3ab1ea94-20b8-475e-b4e2-1ec4ce4c60d9")
-	)
 	(label "MATRIX_C1"
 		(at 96.52 140.97 270)
 		(effects
@@ -7845,6 +7845,16 @@
 		)
 		(uuid "723900fc-b627-4593-85e1-64da62350e79")
 	)
+	(label "MATRIX_R4"
+		(at 246.38 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "73f10313-c747-477a-aff5-6344338c186d")
+	)
 	(label "USB_D-"
 		(at 54.61 167.64 180)
 		(effects
@@ -7856,14 +7866,14 @@
 		(uuid "76551a80-cd7e-43e2-bea1-3cab7fd6b9af")
 	)
 	(label "MATRIX_R1"
-		(at 246.38 81.28 180)
+		(at 246.38 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "76ff1eeb-daf9-4c8e-b4b0-d37ae84ca8e8")
+		(uuid "766fe865-517e-4856-a73a-85aded9dcc4b")
 	)
 	(label "XOUT"
 		(at 175.26 127 0)
@@ -7885,16 +7895,6 @@
 		)
 		(uuid "7aad3460-36e6-448c-9bb7-ad22912abfdb")
 	)
-	(label "MATRIX_R3"
-		(at 246.38 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8072aa3c-bddb-40f9-a49e-92201ff64d5d")
-	)
 	(label "ENCODER_1_B"
 		(at 246.38 124.46 180)
 		(effects
@@ -7914,6 +7914,16 @@
 			(justify left bottom)
 		)
 		(uuid "80e25ed9-ff56-401e-b325-0387eccd22d8")
+	)
+	(label "MATRIX_R5"
+		(at 246.38 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "86ac78ea-0e4f-4171-8dc3-17074af98c2f")
 	)
 	(label "MATRIX_C4"
 		(at 134.62 140.97 270)
@@ -8014,16 +8024,6 @@
 			(justify left bottom)
 		)
 		(uuid "b1d01503-0334-4028-86f2-761b0a6572d4")
-	)
-	(label "MATRIX_R2"
-		(at 246.38 83.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b42ce4be-90d0-4d69-8cac-4ba1b891e7e5")
 	)
 	(label "QSPI_SD1"
 		(at 165.1 96.52 0)
