@@ -4254,6 +4254,12 @@
 		(uuid "09ebd07e-791e-45c6-9aa4-cd21795c074b")
 	)
 	(junction
+		(at 214.63 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ddcaea1-52ad-439e-9f0d-7a3cf1645e88")
+	)
+	(junction
 		(at 15.24 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4288,6 +4294,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1ba9aee8-2b0e-40af-8ab0-00c770327475")
+	)
+	(junction
+		(at 189.23 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24a176fd-7c1a-45a6-9ec1-96b33bca0c93")
 	)
 	(junction
 		(at 241.3 50.8)
@@ -4338,6 +4350,12 @@
 		(uuid "43e638d9-01a9-4cfb-8b76-5ff0cb1ec6d7")
 	)
 	(junction
+		(at 87.63 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44628270-47d0-47cb-bd0f-4e9060699ba3")
+	)
+	(junction
 		(at 69.85 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4372,6 +4390,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "58089932-ac81-42b9-adcb-f0b222d918cc")
+	)
+	(junction
+		(at 240.03 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a033adf-1432-4969-9b45-308e4f7e16bb")
 	)
 	(junction
 		(at 121.92 185.42)
@@ -4414,6 +4438,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73931943-2bb0-4723-b289-a21a4ce9e591")
+	)
+	(junction
+		(at 163.83 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "760dd87b-28be-476b-847d-247ce0c62d61")
 	)
 	(junction
 		(at 52.07 151.13)
@@ -4482,6 +4512,12 @@
 		(uuid "898a4557-862d-49ab-b370-a60c0b00741e")
 	)
 	(junction
+		(at 62.23 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b1c3c64-7c74-4383-9f8f-ffcec961dd57")
+	)
+	(junction
 		(at 144.78 195.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4528,6 +4564,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ecbc8ab-0066-4ca8-b671-8d9f95d3d8c1")
+	)
+	(junction
+		(at 36.83 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f2f92f9-f6b8-4187-8262-490307e5608e")
 	)
 	(junction
 		(at 132.08 166.37)
@@ -4590,10 +4632,22 @@
 		(uuid "ca3c2b55-843c-4d5b-b357-b6e618b37913")
 	)
 	(junction
+		(at 138.43 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc55d62a-e538-4b38-9cd3-7b4cb63d04ba")
+	)
+	(junction
 		(at 144.78 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd7c967e-940b-4989-8179-929271e17344")
+	)
+	(junction
+		(at 265.43 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cffabc52-925f-45d6-bbbb-e63e592e3c05")
 	)
 	(junction
 		(at 132.08 186.69)
@@ -4612,6 +4666,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e11fcae9-b59c-40cb-8061-2f01fbc0fecd")
+	)
+	(junction
+		(at 113.03 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8b3606c-09f7-469f-9b3b-49060dd99514")
 	)
 	(junction
 		(at 35.56 19.05)
@@ -4717,6 +4777,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 19.05) (xy 214.63 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "071ec3e3-45b1-4d76-8650-223f89525c23")
+	)
+	(wire
+		(pts
 			(xy 43.18 171.45) (xy 45.72 171.45)
 		)
 		(stroke
@@ -4767,6 +4837,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 17.78) (xy 121.92 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d8ea7b5-1898-46a3-94f9-eb67f73297d9")
+	)
+	(wire
+		(pts
 			(xy 231.14 144.78) (xy 232.41 144.78)
 		)
 		(stroke
@@ -4797,6 +4877,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 20.32) (xy 193.04 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f9a6c27-5055-490c-8516-dc9090577827")
+	)
+	(wire
+		(pts
 			(xy 106.68 176.53) (xy 119.38 176.53)
 		)
 		(stroke
@@ -4807,6 +4897,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 19.05) (xy 138.43 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "140dae38-e6cc-463b-b2dc-b6c4a748a091")
+	)
+	(wire
+		(pts
 			(xy 116.84 102.87) (xy 118.11 102.87)
 		)
 		(stroke
@@ -4814,6 +4914,16 @@
 			(type default)
 		)
 		(uuid "14418fc9-72dd-47ae-b03d-4219deb9a147")
+	)
+	(wire
+		(pts
+			(xy 39.37 19.05) (xy 36.83 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1690dc2a-4295-44c1-aa6f-526b676d2392")
 	)
 	(wire
 		(pts
@@ -4867,6 +4977,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 20.32) (xy 243.84 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c0b828d-5a49-4dae-98f0-84f3c24e8403")
+	)
+	(wire
+		(pts
 			(xy 15.24 80.01) (xy 17.78 80.01)
 		)
 		(stroke
@@ -4884,6 +5004,16 @@
 			(type default)
 		)
 		(uuid "1c8b173b-be6d-495c-b270-0d6699351543")
+	)
+	(wire
+		(pts
+			(xy 39.37 20.32) (xy 39.37 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dfdcc28-e86d-44f3-81c9-f51a8294335a")
 	)
 	(wire
 		(pts
@@ -5027,6 +5157,26 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 17.78) (xy 223.52 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d1ea1e2-2bfa-464e-ab20-389ffe6a4267")
+	)
+	(wire
+		(pts
+			(xy 64.77 20.32) (xy 64.77 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d4d4aaa-3203-46b9-8a05-a7d8dd90858e")
+	)
+	(wire
+		(pts
 			(xy 96.52 175.26) (xy 96.52 185.42)
 		)
 		(stroke
@@ -5087,6 +5237,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 20.32) (xy 218.44 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3480768f-ccbc-4bda-b02b-1dd0833b36a0")
+	)
+	(wire
+		(pts
 			(xy 231.14 104.14) (xy 232.41 104.14)
 		)
 		(stroke
@@ -5104,6 +5264,16 @@
 			(type default)
 		)
 		(uuid "360d3833-3243-4006-b4ca-612c4fe5a25e")
+	)
+	(wire
+		(pts
+			(xy 147.32 17.78) (xy 147.32 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38b12ba0-6f61-4ffc-80ef-182ff4df75c3")
 	)
 	(wire
 		(pts
@@ -5134,6 +5304,16 @@
 			(type default)
 		)
 		(uuid "3d218fea-6a24-4cdf-a38f-5a69864cca6a")
+	)
+	(wire
+		(pts
+			(xy 96.52 17.78) (xy 96.52 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e311599-8e8a-495e-9718-2385f42be769")
 	)
 	(wire
 		(pts
@@ -5264,6 +5444,16 @@
 			(type default)
 		)
 		(uuid "46ff7d97-7f0b-45d0-9d4d-73167c4a5219")
+	)
+	(wire
+		(pts
+			(xy 198.12 17.78) (xy 198.12 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47d5399a-8121-423d-99f2-ea123bad0352")
 	)
 	(wire
 		(pts
@@ -5507,6 +5697,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 20.32) (xy 167.64 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a0c7496-917a-42fe-97e5-812d2d08f202")
+	)
+	(wire
+		(pts
 			(xy 63.5 97.79) (xy 63.5 96.52)
 		)
 		(stroke
@@ -5577,6 +5777,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 19.05) (xy 87.63 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60a128ba-5c43-4bf2-ad26-adce55619b59")
+	)
+	(wire
+		(pts
 			(xy 144.78 195.58) (xy 156.21 195.58)
 		)
 		(stroke
@@ -5644,6 +5854,26 @@
 			(type default)
 		)
 		(uuid "634b324e-2394-44da-b09c-4a618ea81165")
+	)
+	(wire
+		(pts
+			(xy 273.05 17.78) (xy 273.05 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63ebb094-ef5e-48e5-abce-8b2175bdb50b")
+	)
+	(wire
+		(pts
+			(xy 166.37 20.32) (xy 166.37 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64766a64-d2dd-40b7-8085-b26a495bf55d")
 	)
 	(wire
 		(pts
@@ -5737,6 +5967,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 20.32) (xy 40.64 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a36bbc9-7cda-4249-88dd-e33d01874f0d")
+	)
+	(wire
+		(pts
 			(xy 119.38 26.67) (xy 129.54 26.67)
 		)
 		(stroke
@@ -5817,6 +6057,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 20.32) (xy 90.17 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74c0194f-6215-420f-8a0f-826b95efa9db")
+	)
+	(wire
+		(pts
 			(xy 231.14 78.74) (xy 246.38 78.74)
 		)
 		(stroke
@@ -5847,6 +6097,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 20.32) (xy 91.44 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "785fa65a-ddc7-43a9-b8e6-1a33250e8d95")
+	)
+	(wire
+		(pts
 			(xy 44.45 80.01) (xy 50.8 80.01)
 		)
 		(stroke
@@ -5854,6 +6114,26 @@
 			(type default)
 		)
 		(uuid "78d6ee04-2929-4a39-b762-c0dafe886255")
+	)
+	(wire
+		(pts
+			(xy 191.77 19.05) (xy 189.23 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7917cc53-e56f-4956-9c74-f801862a57f3")
+	)
+	(wire
+		(pts
+			(xy 140.97 20.32) (xy 142.24 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7929c739-5516-4d4c-99af-4b1794945126")
 	)
 	(wire
 		(pts
@@ -5887,6 +6167,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 20.32) (xy 191.77 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c42367d-c566-4867-9f07-872acfa722cf")
+	)
+	(wire
+		(pts
 			(xy 134.62 175.26) (xy 134.62 185.42)
 		)
 		(stroke
@@ -5894,6 +6184,16 @@
 			(type default)
 		)
 		(uuid "7ce31c18-494b-40d7-a46e-2c3eb0a712aa")
+	)
+	(wire
+		(pts
+			(xy 242.57 20.32) (xy 242.57 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d62841c-0948-464c-81d3-4140ac606e80")
 	)
 	(wire
 		(pts
@@ -5947,6 +6247,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 19.05) (xy 265.43 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81ef9cad-9d97-4060-bf5a-1ac10b7e1f94")
+	)
+	(wire
+		(pts
 			(xy 119.38 185.42) (xy 119.38 186.69)
 		)
 		(stroke
@@ -5967,6 +6277,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 20.32) (xy 267.97 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85e661e2-a72b-4607-8d7e-d804557642a4")
+	)
+	(wire
+		(pts
 			(xy 52.07 149.86) (xy 52.07 151.13)
 		)
 		(stroke
@@ -5984,6 +6304,16 @@
 			(type default)
 		)
 		(uuid "89681014-747a-4940-a8a7-19ad65334832")
+	)
+	(wire
+		(pts
+			(xy 64.77 19.05) (xy 62.23 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bd52050-fffe-4ad4-8f33-6e0e36875c42")
 	)
 	(wire
 		(pts
@@ -6034,6 +6364,16 @@
 			(type default)
 		)
 		(uuid "8e193a24-390f-4cc6-be8a-fb5e973c0825")
+	)
+	(wire
+		(pts
+			(xy 115.57 20.32) (xy 115.57 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e812302-990c-4111-b400-d06a97df7f09")
 	)
 	(wire
 		(pts
@@ -6187,6 +6527,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 19.05) (xy 163.83 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f0dd9f7-edce-4811-a380-fe53daf667eb")
+	)
+	(wire
+		(pts
 			(xy 218.44 55.88) (xy 229.87 55.88)
 		)
 		(stroke
@@ -6327,6 +6677,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 19.05) (xy 240.03 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a85af530-4e48-45eb-a0db-21dc6c6017b4")
+	)
+	(wire
+		(pts
 			(xy 36.83 71.12) (xy 38.1 71.12)
 		)
 		(stroke
@@ -6407,6 +6767,26 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 20.32) (xy 217.17 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b17e80f2-4bec-4aca-a905-87b92febf7fe")
+	)
+	(wire
+		(pts
+			(xy 64.77 20.32) (xy 66.04 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2ae7311-ec82-4b89-90d2-2930ae373ff3")
+	)
+	(wire
+		(pts
 			(xy 264.16 50.8) (xy 275.59 50.8)
 		)
 		(stroke
@@ -6477,6 +6857,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 20.32) (xy 266.7 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba4aaa36-523d-443c-b6b6-fbe0ded6378e")
+	)
+	(wire
+		(pts
 			(xy 231.14 109.22) (xy 232.41 109.22)
 		)
 		(stroke
@@ -6497,6 +6887,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 17.78) (xy 172.72 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbc93e48-bd52-4602-93ec-7774ff99ae58")
+	)
+	(wire
+		(pts
 			(xy 20.32 189.23) (xy 27.94 189.23)
 		)
 		(stroke
@@ -6514,6 +6914,16 @@
 			(type default)
 		)
 		(uuid "bf7d7b5a-cb85-46a2-826b-de61f34ee17c")
+	)
+	(wire
+		(pts
+			(xy 115.57 19.05) (xy 113.03 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1c9d70b-25ce-49ea-8437-6c91305053e1")
 	)
 	(wire
 		(pts
@@ -6564,6 +6974,16 @@
 			(type default)
 		)
 		(uuid "c88140d5-fcdc-4085-b6cd-a4e6d7c7c1a4")
+	)
+	(wire
+		(pts
+			(xy 248.92 17.78) (xy 248.92 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8ec18a8-9534-4974-bdac-ae5b70eb78a4")
 	)
 	(wire
 		(pts
@@ -6637,6 +7057,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 17.78) (xy 45.72 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d11e4763-3c0a-4b64-8ff9-30b4c9d31896")
+	)
+	(wire
+		(pts
 			(xy 213.36 49.53) (xy 213.36 50.8)
 		)
 		(stroke
@@ -6644,6 +7074,16 @@
 			(type default)
 		)
 		(uuid "d15d4ddd-0afb-43da-a8cd-ddbf66c31a23")
+	)
+	(wire
+		(pts
+			(xy 71.12 17.78) (xy 71.12 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2045b31-27b5-4b63-ba8b-c102963be300")
 	)
 	(wire
 		(pts
@@ -6674,6 +7114,16 @@
 			(type default)
 		)
 		(uuid "d3b193bc-b4a9-4e89-8b31-d3526f960025")
+	)
+	(wire
+		(pts
+			(xy 140.97 20.32) (xy 140.97 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d76e792f-695a-47cd-a99e-0b22f472882d")
 	)
 	(wire
 		(pts
@@ -6724,6 +7174,16 @@
 			(type default)
 		)
 		(uuid "d9d1c879-c5db-4fe5-b09a-77dd59e8e88e")
+	)
+	(wire
+		(pts
+			(xy 115.57 20.32) (xy 116.84 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da29bd2c-8f6a-42ea-89be-5c4376b33d15")
 	)
 	(wire
 		(pts
@@ -7870,6 +8330,73 @@
 			(project ""
 				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
 					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 198.12 17.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "049b59b2-8070-48c1-8a42-c6f106ac6e63")
+		(property "Reference" "#PWR051"
+			(at 204.47 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 201.93 17.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 198.12 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c46856f-09dc-4fe1-9b4a-8842273e08d6")
+		)
+		(instances
+			(project "Mini Macro Pad V3 PCB"
+				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -9069,6 +9596,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 96.52 17.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c7fb17e-9062-4756-af19-e41d7e521fa3")
+		(property "Reference" "#PWR047"
+			(at 102.87 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.33 17.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 96.52 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ffc23d63-819e-4079-9b36-5a07373daa3d")
+		)
+		(instances
+			(project "Mini Macro Pad V3 PCB"
+				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 46.99 158.75 270)
 		(unit 1)
@@ -9263,6 +9857,73 @@
 			(project ""
 				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 45.72 17.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f45ef15-e135-47c5-8e1e-9fa7a06c1b17")
+		(property "Reference" "#PWR045"
+			(at 52.07 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 17.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 45.72 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41444e51-12e4-4532-b191-b3b79b5bd276")
+		)
+		(instances
+			(project "Mini Macro Pad V3 PCB"
+				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -11663,6 +12324,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 43.18 20.32 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64080cb3-a787-428e-b4af-4cc5ace1b8ec")
+		(property "Reference" "C14"
+			(at 43.1736 13.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "104"
+			(at 43.1736 16.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 43.18 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 43.18 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "beab2ffd-f32c-4dd4-9989-a712fb32504d")
+		)
+		(pin "1"
+			(uuid "583ab616-03cd-4e48-9be2-97080183738a")
+		)
+		(instances
+			(project ""
+				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 69.85 160.02 90)
 		(unit 1)
@@ -12137,6 +12866,142 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 144.78 20.32 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6861c13c-0d1f-4a64-ac49-c1eacb28f591")
+		(property "Reference" "C18"
+			(at 144.7736 13.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "104"
+			(at 144.7736 16.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 144.78 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 144.78 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "388aedde-2a09-4368-806e-e48817e0d484")
+		)
+		(pin "1"
+			(uuid "57916dcb-5a50-4274-b7d7-784125777507")
+		)
+		(instances
+			(project "Mini Macro Pad V3 PCB"
+				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 68.58 20.32 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68feeb78-8a55-478a-b534-6dfe096083dc")
+		(property "Reference" "C15"
+			(at 68.5736 13.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "104"
+			(at 68.5736 16.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 68.58 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 68.58 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "28176f0c-8f7c-4c96-a386-e647883e2ebb")
+		)
+		(pin "1"
+			(uuid "5cfa69b4-4da1-4874-91e5-66f06cf4a8e6")
+		)
+		(instances
+			(project "Mini Macro Pad V3 PCB"
+				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED:WS2812B")
 		(at 86.36 26.67 0)
 		(unit 1)
@@ -12273,6 +13138,73 @@
 			(project "Mini Macro Pad V3 PCB"
 				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
 					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 248.92 17.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71ccd9d1-9a5c-4492-9891-db7dbf846e91")
+		(property "Reference" "#PWR053"
+			(at 255.27 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 252.73 17.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 248.92 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39a9c3c3-b5c5-4b9f-a817-127d5f2fb217")
+		)
+		(instances
+			(project "Mini Macro Pad V3 PCB"
+				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -12478,6 +13410,207 @@
 			(project "Mini Macro Pad V3 PCB"
 				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
 					(reference "TP31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 147.32 17.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "757af982-4a1a-40a7-ae6b-4b49f476d84c")
+		(property "Reference" "#PWR049"
+			(at 153.67 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 17.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 147.32 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0baaea73-ad95-4f60-b70c-27cde4cc254a")
+		)
+		(instances
+			(project "Mini Macro Pad V3 PCB"
+				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 223.52 17.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "782eff2b-5523-4c7a-9c48-860ed6683932")
+		(property "Reference" "#PWR052"
+			(at 229.87 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 227.33 17.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 223.52 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3084d9d-bb05-483c-9723-93407a645d20")
+		)
+		(instances
+			(project "Mini Macro Pad V3 PCB"
+				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 121.92 17.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7951c79d-5edf-4b65-a707-1f7fd72f98c7")
+		(property "Reference" "#PWR048"
+			(at 128.27 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 125.73 17.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 121.92 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13efc81f-8513-438b-a711-7f14a05a307e")
+		)
+		(instances
+			(project "Mini Macro Pad V3 PCB"
+				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -12747,6 +13880,73 @@
 			(project "Mini Macro Pad V3 PCB"
 				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
 					(reference "TP29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 273.05 17.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ed6543e-0479-4561-9e4c-8f881a521320")
+		(property "Reference" "#PWR054"
+			(at 279.4 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 276.86 17.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 273.05 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed746005-9e99-4da6-8492-eacf97fae1c0")
+		)
+		(instances
+			(project "Mini Macro Pad V3 PCB"
+				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -13079,6 +14279,74 @@
 			(project ""
 				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 195.58 20.32 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91999d82-3d2d-4a97-820a-4a85e32a8537")
+		(property "Reference" "C20"
+			(at 195.5736 13.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "104"
+			(at 195.5736 16.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 195.58 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 195.58 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3dcada3f-e9c6-42ce-a214-efbffc8a82aa")
+		)
+		(pin "1"
+			(uuid "35ac518c-7d6c-4cdf-8ba8-3566e4d2e23e")
+		)
+		(instances
+			(project "Mini Macro Pad V3 PCB"
+				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -13489,6 +14757,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 172.72 17.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b0970a7-5bc5-4779-89d7-abe3365ddbc6")
+		(property "Reference" "#PWR050"
+			(at 179.07 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 176.53 17.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 172.72 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "971e80cd-4adb-45e4-83d1-1c4802962d2c")
+		)
+		(instances
+			(project "Mini Macro Pad V3 PCB"
+				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 52.07 149.86 0)
 		(unit 1)
@@ -13615,6 +14950,74 @@
 			(project "Mini Macro Pad V3 PCB"
 				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
 					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 93.98 20.32 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a293e5b3-1800-4551-9cf6-565be501b2ab")
+		(property "Reference" "C16"
+			(at 93.9736 13.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "104"
+			(at 93.9736 16.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 93.98 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 93.98 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "825ada97-ff94-47c9-b0f2-c4ef708b4e31")
+		)
+		(pin "1"
+			(uuid "e9820f6d-65e5-4d9c-9208-af527dbb0bf7")
+		)
+		(instances
+			(project "Mini Macro Pad V3 PCB"
+				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -14887,6 +16290,74 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
+		(at 220.98 20.32 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c43baafe-e963-4036-b797-6b417adc0af2")
+		(property "Reference" "C21"
+			(at 220.9736 13.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "104"
+			(at 220.9736 16.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 220.98 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 220.98 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1dd5126e-c630-4ad7-b7c7-5f0ab1b8825c")
+		)
+		(pin "1"
+			(uuid "6063945b-3f41-4f45-b44a-ec731af2e84f")
+		)
+		(instances
+			(project "Mini Macro Pad V3 PCB"
+				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
 		(at 215.9 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15223,6 +16694,74 @@
 			(project ""
 				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
 					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 270.51 20.32 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0bc7ada-b03f-489c-9f2e-4dd543f078b8")
+		(property "Reference" "C23"
+			(at 270.5036 13.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "104"
+			(at 270.5036 16.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 270.51 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 270.51 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 270.51 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0fc376f3-cacc-4d62-8fb7-1c395d737f00")
+		)
+		(pin "1"
+			(uuid "a6c5bc79-3afe-427d-bfa9-fc17a1e9f473")
+		)
+		(instances
+			(project "Mini Macro Pad V3 PCB"
+				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -15798,6 +17337,141 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 71.12 17.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4110486-c930-49ff-b6db-c26916095565")
+		(property "Reference" "#PWR046"
+			(at 77.47 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.93 17.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 71.12 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc985b5d-fe88-4d57-a4b9-a808d70fd46a")
+		)
+		(instances
+			(project "Mini Macro Pad V3 PCB"
+				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 246.38 20.32 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e68ea207-82d9-4cab-9f91-3a26248e82aa")
+		(property "Reference" "C22"
+			(at 246.3736 13.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "104"
+			(at 246.3736 16.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 246.38 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 246.38 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bc4edebf-1f6d-4b35-88dd-e509895ff0dc")
+		)
+		(pin "1"
+			(uuid "ae6f4544-6bdf-44e0-ac28-512cee207fec")
+		)
+		(instances
+			(project "Mini Macro Pad V3 PCB"
+				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 25.4 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15857,6 +17531,74 @@
 			(project "Mini Macro Pad V3 PCB"
 				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 119.38 20.32 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8bd67bd-b745-47d5-bee4-33bc22a8d862")
+		(property "Reference" "C17"
+			(at 119.3736 13.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "104"
+			(at 119.3736 16.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 119.38 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 119.38 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eb52652c-dcae-4811-a5d5-f5eed4275df1")
+		)
+		(pin "1"
+			(uuid "9e8f4d35-77e4-4eee-a8b6-9927364fe96c")
+		)
+		(instances
+			(project "Mini Macro Pad V3 PCB"
+				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -15927,6 +17669,74 @@
 			(project "Mini Macro Pad V3 PCB"
 				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 170.18 20.32 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eac617fc-8d44-4dd4-86fa-f4f84a5f0a18")
+		(property "Reference" "C19"
+			(at 170.1736 13.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "104"
+			(at 170.1736 16.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 170.18 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 170.18 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6c82653c-372f-41e1-b064-dae3175bdc57")
+		)
+		(pin "1"
+			(uuid "22ef0787-4ac8-41ea-ac2a-82eedfea8c6b")
+		)
+		(instances
+			(project "Mini Macro Pad V3 PCB"
+				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
+					(reference "C19")
 					(unit 1)
 				)
 			)
