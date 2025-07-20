@@ -1822,7 +1822,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LED:NeoPixel_THT"
+		(symbol "LED:WS2812B"
 			(pin_names
 				(offset 0.254)
 			)
@@ -1838,7 +1838,7 @@
 					(justify right bottom)
 				)
 			)
-			(property "Value" "NeoPixel_THT"
+			(property "Value" "WS2812B"
 				(at 1.27 -5.715 0)
 				(effects
 					(font
@@ -1847,7 +1847,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 				(at 1.27 -7.62 0)
 				(effects
 					(font
@@ -1857,7 +1857,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.adafruit.com/product/1938"
+			(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
 				(at 2.54 -9.525 0)
 				(effects
 					(font
@@ -1867,7 +1867,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
+			(property "Description" "RGB LED with integrated controller"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1885,7 +1885,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "LED*D5.0mm* LED*D8.0mm*"
+			(property "ki_fp_filters" "LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1894,7 +1894,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "NeoPixel_THT_0_0"
+			(symbol "WS2812B_0_0"
 				(text "RGB"
 					(at 2.286 -4.191 0)
 					(effects
@@ -1904,7 +1904,7 @@
 					)
 				)
 			)
-			(symbol "NeoPixel_THT_0_1"
+			(symbol "WS2812B_0_1"
 				(polyline
 					(pts
 						(xy 1.27 -2.54) (xy 1.778 -2.54)
@@ -2001,7 +2001,7 @@
 					)
 				)
 			)
-			(symbol "NeoPixel_THT_1_1"
+			(symbol "WS2812B_1_1"
 				(pin input line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -2030,7 +2030,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2041,14 +2041,14 @@
 				(pin power_in line
 					(at 0 -7.62 90)
 					(length 2.54)
-					(name "GND"
+					(name "VSS"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2066,7 +2066,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4230,6 +4230,18 @@
 		(uuid "cda3023d-3af8-4174-bcaa-203313c930d6")
 	)
 	(junction
+		(at 109.22 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "010c5cec-8120-4acc-88cf-6a6248995b73")
+	)
+	(junction
+		(at 132.08 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02caa0a4-2d62-4125-9a9a-c73dff59d766")
+	)
+	(junction
 		(at 229.87 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4254,10 +4266,10 @@
 		(uuid "108bc168-771e-44a6-8c51-99a3ab20b9fc")
 	)
 	(junction
-		(at 119.38 186.69)
+		(at 121.92 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1631ca6d-41eb-4e7c-97f0-07b48822bdf7")
+		(uuid "10f4427a-fb3f-4679-bb79-094994576897")
 	)
 	(junction
 		(at 119.38 166.37)
@@ -4272,10 +4284,22 @@
 		(uuid "1ba92965-f895-41c9-905d-412f3a7e1004")
 	)
 	(junction
+		(at 96.52 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ba9aee8-2b0e-40af-8ab0-00c770327475")
+	)
+	(junction
 		(at 241.3 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "26aa5d9f-ed2e-4a69-9056-8dae8ba48548")
+	)
+	(junction
+		(at 44.45 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "274bf648-bf94-40ff-944a-1e0baf9b4fe7")
 	)
 	(junction
 		(at 57.15 151.13)
@@ -4308,16 +4332,22 @@
 		(uuid "42e3051b-6030-4e1f-982c-b8f6af422771")
 	)
 	(junction
-		(at 109.22 185.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "43db1f24-6287-4e9c-85c4-a9717c1041a0")
-	)
-	(junction
 		(at 134.62 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "43e638d9-01a9-4cfb-8b76-5ff0cb1ec6d7")
+	)
+	(junction
+		(at 69.85 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4493b667-d214-48d5-b48d-b7c257bf5cab")
+	)
+	(junction
+		(at 109.22 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "493c9c23-a665-4736-86f3-e05b9a2444fb")
 	)
 	(junction
 		(at 134.62 154.94)
@@ -4342,6 +4372,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "58089932-ac81-42b9-adcb-f0b222d918cc")
+	)
+	(junction
+		(at 121.92 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b2cc787-a5da-408b-a94d-f90742e48aa4")
 	)
 	(junction
 		(at 96.52 175.26)
@@ -4422,16 +4458,16 @@
 		(uuid "866f846d-02d8-47ef-9282-124918005e38")
 	)
 	(junction
+		(at 26.67 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86af57ef-c659-4bd6-84c6-f88f16a9d6e0")
+	)
+	(junction
 		(at 49.53 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "86b4ef22-8115-4b34-ade7-aa9314620f54")
-	)
-	(junction
-		(at 132.08 186.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8791bd19-ff10-4608-a4f5-266d33ad0923")
 	)
 	(junction
 		(at 121.92 154.94)
@@ -4444,6 +4480,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "898a4557-862d-49ab-b370-a60c0b00741e")
+	)
+	(junction
+		(at 144.78 195.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8dcde636-1acf-4fb9-b046-cd6153f57282")
+	)
+	(junction
+		(at 36.83 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e6b2b35-daa6-47db-a3bc-746a2f3610c5")
 	)
 	(junction
 		(at 144.78 166.37)
@@ -4464,22 +4512,16 @@
 		(uuid "94fd6ad5-bde5-4b19-b8c9-86353117c391")
 	)
 	(junction
-		(at 109.22 175.26)
+		(at 119.38 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9a1a14b2-eb8a-43db-83a2-387f1010720c")
+		(uuid "994d8e43-25e3-4588-a87b-d65f3c94ece5")
 	)
 	(junction
 		(at 252.73 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b3a0be0-52e7-4641-89de-f863b46c609a")
-	)
-	(junction
-		(at 132.08 176.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9d613ea7-905a-44e0-a612-5496c88b07c7")
 	)
 	(junction
 		(at 134.62 185.42)
@@ -4498,6 +4540,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8d4c270-ba83-4c5a-88a9-03aad9308298")
+	)
+	(junction
+		(at 134.62 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a90171d1-e772-48ca-871f-440a4cc9ced1")
 	)
 	(junction
 		(at 144.78 196.85)
@@ -4524,10 +4572,22 @@
 		(uuid "ac992a54-f84c-435b-bb74-52d9cf2ae41b")
 	)
 	(junction
+		(at 78.74 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c152a964-2d57-4c21-9e93-f59ab51db8ff")
+	)
+	(junction
 		(at 45.72 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c6f9ec98-f729-486b-9f48-d7d2d12c9b4b")
+	)
+	(junction
+		(at 119.38 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca3c2b55-843c-4d5b-b357-b6e618b37913")
 	)
 	(junction
 		(at 144.78 176.53)
@@ -4536,10 +4596,10 @@
 		(uuid "cd7c967e-940b-4989-8179-929271e17344")
 	)
 	(junction
-		(at 121.92 185.42)
+		(at 132.08 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d5c2e321-6ae5-4ae8-ab65-3abd0f25422a")
+		(uuid "d41c6e29-40e7-49a2-954a-a48a9b02cd86")
 	)
 	(junction
 		(at 210.82 60.96)
@@ -4554,10 +4614,10 @@
 		(uuid "e11fcae9-b59c-40cb-8061-2f01fbc0fecd")
 	)
 	(junction
-		(at 119.38 176.53)
+		(at 35.56 19.05)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ea7857db-55ae-4fed-90d4-7b6284367fef")
+		(uuid "f322bf33-9d0b-4b68-95e4-00a864d7b186")
 	)
 	(junction
 		(at 35.56 113.03)
@@ -4566,62 +4626,16 @@
 		(uuid "f3c9ca42-abf4-4285-a8c5-f33b0ac61d18")
 	)
 	(junction
+		(at 109.22 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f91e98f9-016e-4445-92ba-a184e137a420")
+	)
+	(junction
 		(at 121.92 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fe0a9212-8dee-4dd7-8827-3f21fa57ea52")
-	)
-	(no_connect
-		(at 231.14 114.3)
-		(uuid "047f546a-d7e1-4097-b27d-7bb5ed959782")
-	)
-	(no_connect
-		(at 231.14 129.54)
-		(uuid "2bcb559c-e62f-4428-b9e6-3a3501c96230")
-	)
-	(no_connect
-		(at 231.14 144.78)
-		(uuid "2fe0054b-94bc-4a88-97a9-ad7484e4a0fd")
-	)
-	(no_connect
-		(at 231.14 147.32)
-		(uuid "36349845-894a-4600-ab31-7c3d2164ce24")
-	)
-	(no_connect
-		(at 231.14 116.84)
-		(uuid "47b7637e-dbde-4425-805d-2ce029568bd2")
-	)
-	(no_connect
-		(at 231.14 134.62)
-		(uuid "794bc421-4c88-4197-8897-a810d14ba8cc")
-	)
-	(no_connect
-		(at 231.14 142.24)
-		(uuid "8108c8dd-6df4-4c3c-8df5-791c08c084f9")
-	)
-	(no_connect
-		(at 231.14 119.38)
-		(uuid "82643537-4528-43d8-bde3-339dba9078ce")
-	)
-	(no_connect
-		(at 231.14 132.08)
-		(uuid "9972ada2-fd07-4e7b-8f40-4592eb97639f")
-	)
-	(no_connect
-		(at 231.14 139.7)
-		(uuid "a23ffa9e-924a-4c91-baee-673526f5a378")
-	)
-	(no_connect
-		(at 231.14 124.46)
-		(uuid "aaa60a0c-20cb-4411-991c-f717c7ae5778")
-	)
-	(no_connect
-		(at 231.14 121.92)
-		(uuid "ae232ae9-6962-4af4-a98a-02032e379c89")
-	)
-	(no_connect
-		(at 231.14 127)
-		(uuid "bc248a4b-8283-4181-9518-0d72f21b6ad4")
 	)
 	(no_connect
 		(at 180.34 71.12)
@@ -4631,9 +4645,15 @@
 		(at 271.78 26.67)
 		(uuid "d6f0525a-615d-407f-8380-0051cae69912")
 	)
-	(no_connect
-		(at 231.14 111.76)
-		(uuid "f51d8d90-8648-42ec-aafb-62f80ba0fb07")
+	(wire
+		(pts
+			(xy 144.78 186.69) (xy 144.78 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01cd4b74-63ff-4436-b561-fba353265e2e")
 	)
 	(wire
 		(pts
@@ -4667,6 +4687,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 151.13) (xy 83.82 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "055ea4f2-7d80-4c35-a60f-a1aef1e39d83")
+	)
+	(wire
+		(pts
 			(xy 196.85 54.61) (xy 203.2 54.61)
 		)
 		(stroke
@@ -4697,6 +4727,26 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 127) (xy 232.41 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "086047d9-9956-44d9-ae81-e9b4e9e2071c")
+	)
+	(wire
+		(pts
+			(xy 119.38 186.69) (xy 132.08 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08d6fa35-d5e6-4582-909a-143422484494")
+	)
+	(wire
+		(pts
 			(xy 218.44 50.8) (xy 229.87 50.8)
 		)
 		(stroke
@@ -4717,17 +4767,17 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 176.53) (xy 119.38 176.53)
+			(xy 231.14 124.46) (xy 232.41 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0adfd843-d3f0-472a-9605-49d742c794f7")
+		(uuid "0c13e812-9607-4fba-b8b7-9cfab3532b5a")
 	)
 	(wire
 		(pts
-			(xy 231.14 99.06) (xy 232.41 99.06)
+			(xy 231.14 99.06) (xy 246.38 99.06)
 		)
 		(stroke
 			(width 0)
@@ -4737,7 +4787,17 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 156.21) (xy 146.05 156.21)
+			(xy 231.14 144.78) (xy 232.41 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dc54374-d012-4a18-ad77-0a0e884dc7c8")
+	)
+	(wire
+		(pts
+			(xy 144.78 156.21) (xy 156.21 156.21)
 		)
 		(stroke
 			(width 0)
@@ -4747,13 +4807,23 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 151.13) (xy 96.52 154.94)
+			(xy 121.92 144.78) (xy 121.92 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "12067ec1-959f-45fd-a21c-7b9f45db493b")
+		(uuid "0f84f6da-e173-49dd-88f7-ef538199476d")
+	)
+	(wire
+		(pts
+			(xy 106.68 176.53) (xy 119.38 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fd6e27e-e434-4cdc-91df-8ce35446638c")
 	)
 	(wire
 		(pts
@@ -4807,6 +4877,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 185.42) (xy 109.22 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b1266e5-fea9-4c84-9922-3bee2b46f078")
+	)
+	(wire
+		(pts
 			(xy 15.24 80.01) (xy 17.78 80.01)
 		)
 		(stroke
@@ -4827,7 +4907,17 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 88.9) (xy 232.41 88.9)
+			(xy 231.14 76.2) (xy 246.38 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e7c108f-e921-42b5-a6d1-5b667f6e1b8b")
+	)
+	(wire
+		(pts
+			(xy 231.14 88.9) (xy 246.38 88.9)
 		)
 		(stroke
 			(width 0)
@@ -4847,7 +4937,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 86.36) (xy 232.41 86.36)
+			(xy 231.14 86.36) (xy 246.38 86.36)
 		)
 		(stroke
 			(width 0)
@@ -4907,6 +4997,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 26.67) (xy 27.94 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b532275-5ee1-4cbd-a884-4eb16ba325af")
+	)
+	(wire
+		(pts
 			(xy 31.75 80.01) (xy 39.37 80.01)
 		)
 		(stroke
@@ -4927,16 +5027,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 185.42) (xy 119.38 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c2ca633-e268-4845-aae3-194a20acaa4b")
-	)
-	(wire
-		(pts
 			(xy 96.52 175.26) (xy 96.52 185.42)
 		)
 		(stroke
@@ -4954,6 +5044,26 @@
 			(type default)
 		)
 		(uuid "2fa134ac-de43-435f-a21e-ed95d590588b")
+	)
+	(wire
+		(pts
+			(xy 109.22 144.78) (xy 109.22 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3138607b-2646-4760-ade4-7af3a0c09fdf")
+	)
+	(wire
+		(pts
+			(xy 44.45 151.13) (xy 52.07 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31fc0b96-f98d-4e11-a1c9-98b9ceb0fbd8")
 	)
 	(wire
 		(pts
@@ -4987,7 +5097,17 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 73.66) (xy 232.41 73.66)
+			(xy 135.89 175.26) (xy 134.62 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a4ae6f2-6c5f-477a-bc8d-ebb8ddfd8c77")
+	)
+	(wire
+		(pts
+			(xy 231.14 73.66) (xy 246.38 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5007,23 +5127,13 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 81.28) (xy 232.41 81.28)
+			(xy 231.14 81.28) (xy 246.38 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3e863b67-3090-4440-a443-7314d7f17ff8")
-	)
-	(wire
-		(pts
-			(xy 132.08 175.26) (xy 132.08 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fe502dc-1214-45cd-b889-7c1722f7ddd0")
 	)
 	(wire
 		(pts
@@ -5037,7 +5147,17 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 109.22) (xy 232.41 109.22)
+			(xy 106.68 186.69) (xy 119.38 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40ba6cce-ba68-4770-9160-957761f04f77")
+	)
+	(wire
+		(pts
+			(xy 231.14 109.22) (xy 246.38 109.22)
 		)
 		(stroke
 			(width 0)
@@ -5067,17 +5187,17 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 186.69) (xy 132.08 186.69)
+			(xy 144.78 195.58) (xy 144.78 196.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4244fa9b-7cd3-4471-a387-3fe6817bc764")
+		(uuid "42b0c2d3-4c09-4b14-aaa4-e817164cd4cf")
 	)
 	(wire
 		(pts
-			(xy 134.62 151.13) (xy 134.62 154.94)
+			(xy 134.62 140.97) (xy 134.62 144.78)
 		)
 		(stroke
 			(width 0)
@@ -5094,6 +5214,16 @@
 			(type default)
 		)
 		(uuid "43ecf7a1-5dea-45f4-b4db-b52c234ceaf2")
+	)
+	(wire
+		(pts
+			(xy 231.14 121.92) (xy 232.41 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "458564e3-125d-4d32-90c4-da186cfde818")
 	)
 	(wire
 		(pts
@@ -5134,6 +5264,16 @@
 			(type default)
 		)
 		(uuid "49963214-dd33-48c0-88b7-2165056d2966")
+	)
+	(wire
+		(pts
+			(xy 132.08 175.26) (xy 132.08 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dbe6613-9eb4-495c-849b-b04c16c61784")
 	)
 	(wire
 		(pts
@@ -5187,6 +5327,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 111.76) (xy 232.41 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5159b346-bf2d-46b2-8f14-99872c3f0d3a")
+	)
+	(wire
+		(pts
 			(xy 134.62 165.1) (xy 134.62 175.26)
 		)
 		(stroke
@@ -5197,16 +5347,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 185.42) (xy 132.08 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52203244-b44a-4864-bbeb-54bb5f030be6")
-	)
-	(wire
-		(pts
 			(xy 111.76 34.29) (xy 113.03 34.29)
 		)
 		(stroke
@@ -5214,6 +5354,16 @@
 			(type default)
 		)
 		(uuid "538ba3f6-3be1-4413-aa65-0953a28413f0")
+	)
+	(wire
+		(pts
+			(xy 144.78 175.26) (xy 144.78 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5456b7f3-7ed5-4a11-915c-f012efe25822")
 	)
 	(wire
 		(pts
@@ -5237,6 +5387,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 114.3) (xy 232.41 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5558e653-bf7c-4efb-8f86-62596c012503")
+	)
+	(wire
+		(pts
 			(xy 87.63 123.19) (xy 101.6 123.19)
 		)
 		(stroke
@@ -5247,16 +5407,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 175.26) (xy 144.78 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "560f4134-9604-4e46-8824-b3766624b787")
-	)
-	(wire
-		(pts
 			(xy 35.56 106.68) (xy 35.56 113.03)
 		)
 		(stroke
@@ -5264,6 +5414,16 @@
 			(type default)
 		)
 		(uuid "568dbd4c-e542-4049-a3c8-3ae68d3b2e17")
+	)
+	(wire
+		(pts
+			(xy 121.92 185.42) (xy 121.92 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56b8b723-a497-4085-8e9f-11572acdcc72")
 	)
 	(wire
 		(pts
@@ -5297,6 +5457,26 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 185.42) (xy 132.08 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58d8a06c-d7b4-4cb6-9025-be78629e5806")
+	)
+	(wire
+		(pts
+			(xy 134.62 144.78) (xy 134.62 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "592a7c83-83c0-44ee-b084-783651ce9ef9")
+	)
+	(wire
+		(pts
 			(xy 38.1 115.57) (xy 48.26 115.57)
 		)
 		(stroke
@@ -5327,23 +5507,23 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 151.13) (xy 109.22 154.94)
+			(xy 121.92 140.97) (xy 121.92 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bd368ba-c15e-4d93-bcc4-de1dc3dc0568")
+	)
+	(wire
+		(pts
+			(xy 109.22 140.97) (xy 109.22 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5d7b05d0-bbba-40c0-984d-3c0ce9c174af")
-	)
-	(wire
-		(pts
-			(xy 109.22 185.42) (xy 109.22 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5db7754b-38fc-46c4-b063-f737e774f1f8")
 	)
 	(wire
 		(pts
@@ -5367,33 +5547,13 @@
 	)
 	(wire
 		(pts
-			(xy 15.24 26.67) (xy 27.94 26.67)
+			(xy 15.24 26.67) (xy 26.67 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5f3ba51d-c72a-4736-b3a7-d6176033f9f3")
-	)
-	(wire
-		(pts
-			(xy 106.68 185.42) (xy 106.68 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f705e19-94ee-464e-82da-759d5ce6a087")
-	)
-	(wire
-		(pts
-			(xy 109.22 175.26) (xy 109.22 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "600adb87-b343-4ce3-9394-e5cc9a1342e0")
 	)
 	(wire
 		(pts
@@ -5407,7 +5567,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 196.85) (xy 146.05 196.85)
+			(xy 144.78 195.58) (xy 156.21 195.58)
 		)
 		(stroke
 			(width 0)
@@ -5474,6 +5634,16 @@
 			(type default)
 		)
 		(uuid "651fd42c-37c3-41c9-9ae4-69dd705ed644")
+	)
+	(wire
+		(pts
+			(xy 106.68 185.42) (xy 106.68 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66ce4e44-3b23-450b-a570-7831c8e675c2")
 	)
 	(wire
 		(pts
@@ -5557,16 +5727,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 175.26) (xy 121.92 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a7dac06-6bcd-49db-b307-e631421883b2")
-	)
-	(wire
-		(pts
 			(xy 87.63 128.27) (xy 101.6 128.27)
 		)
 		(stroke
@@ -5574,6 +5734,16 @@
 			(type default)
 		)
 		(uuid "6e314c2b-fe23-4318-b09c-4dc1a3f38325")
+	)
+	(wire
+		(pts
+			(xy 231.14 134.62) (xy 232.41 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71498e61-1141-42b6-ac2e-ecd1f83ec14b")
 	)
 	(wire
 		(pts
@@ -5607,6 +5777,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 147.32) (xy 232.41 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7365d062-d9f6-431b-b22f-4dff217a5e22")
+	)
+	(wire
+		(pts
 			(xy 109.22 133.35) (xy 110.49 133.35)
 		)
 		(stroke
@@ -5617,7 +5797,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 78.74) (xy 232.41 78.74)
+			(xy 231.14 78.74) (xy 246.38 78.74)
 		)
 		(stroke
 			(width 0)
@@ -5677,13 +5857,13 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 151.13) (xy 121.92 154.94)
+			(xy 144.78 176.53) (xy 156.21 176.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7b00592a-a206-49d8-916f-741a934550fc")
+		(uuid "7b292e0c-a3cf-48e6-a1b1-4e39a8a1977b")
 	)
 	(wire
 		(pts
@@ -5697,16 +5877,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 176.53) (xy 144.78 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d624370-d296-40d8-b199-6bc7a7f28479")
-	)
-	(wire
-		(pts
 			(xy 170.18 137.16) (xy 170.18 135.89)
 		)
 		(stroke
@@ -5714,16 +5884,6 @@
 			(type default)
 		)
 		(uuid "7d8c5fb5-ddf7-4c5f-864e-bfdb812a5e22")
-	)
-	(wire
-		(pts
-			(xy 121.92 185.42) (xy 121.92 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d9704ce-52f2-43fd-975c-9d009fc31984")
 	)
 	(wire
 		(pts
@@ -5744,6 +5904,46 @@
 			(type default)
 		)
 		(uuid "7f315740-d4c1-4c36-828e-604fa44c153a")
+	)
+	(wire
+		(pts
+			(xy 132.08 176.53) (xy 144.78 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f980cd7-0076-45f3-9bc0-fe6eb560fbb3")
+	)
+	(wire
+		(pts
+			(xy 231.14 139.7) (xy 232.41 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "819e786b-6f1c-40b0-a208-deaa60c7640b")
+	)
+	(wire
+		(pts
+			(xy 231.14 132.08) (xy 232.41 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82cdc1d5-a9d8-43ab-8d4a-536c765028da")
+	)
+	(wire
+		(pts
+			(xy 119.38 185.42) (xy 119.38 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83dbc796-3025-4dee-a03c-fecdc8ec2d95")
 	)
 	(wire
 		(pts
@@ -5777,6 +5977,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 166.37) (xy 144.78 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c5a6e62-0542-47c8-858a-0b9cf895939a")
+	)
+	(wire
+		(pts
 			(xy 49.53 157.48) (xy 49.53 158.75)
 		)
 		(stroke
@@ -5807,6 +6017,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 175.26) (xy 121.92 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f9aa164-993f-41f6-bd36-1b4209d23f50")
+	)
+	(wire
+		(pts
 			(xy 38.1 118.11) (xy 48.26 118.11)
 		)
 		(stroke
@@ -5817,6 +6037,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 116.84) (xy 232.41 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91eda052-be46-4c41-8b4a-75b4b228651e")
+	)
+	(wire
+		(pts
 			(xy 35.56 113.03) (xy 48.26 113.03)
 		)
 		(stroke
@@ -5824,6 +6054,16 @@
 			(type default)
 		)
 		(uuid "93a15868-bdb6-4429-94bf-c36d3be19fba")
+	)
+	(wire
+		(pts
+			(xy 231.14 119.38) (xy 232.41 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93fda319-4ba7-4639-bc2a-1f019b59dbf2")
 	)
 	(wire
 		(pts
@@ -5867,16 +6107,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 186.69) (xy 119.38 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bab5200-27d0-47ee-a98c-2c83387e5213")
-	)
-	(wire
-		(pts
 			(xy 179.07 147.32) (xy 180.34 147.32)
 		)
 		(stroke
@@ -5917,7 +6147,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 93.98) (xy 232.41 93.98)
+			(xy 231.14 93.98) (xy 246.38 93.98)
 		)
 		(stroke
 			(width 0)
@@ -5967,7 +6197,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 151.13) (xy 83.82 151.13)
+			(xy 77.47 151.13) (xy 78.74 151.13)
 		)
 		(stroke
 			(width 0)
@@ -5977,7 +6207,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 96.52) (xy 232.41 96.52)
+			(xy 231.14 96.52) (xy 246.38 96.52)
 		)
 		(stroke
 			(width 0)
@@ -6024,6 +6254,36 @@
 			(type default)
 		)
 		(uuid "a3dc99e3-50c2-4870-b2c2-61c1036b9885")
+	)
+	(wire
+		(pts
+			(xy 144.78 176.53) (xy 144.78 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a564641e-78f8-4f02-82bc-faa597589d11")
+	)
+	(wire
+		(pts
+			(xy 144.78 156.21) (xy 144.78 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a56500a8-756f-41d2-adfa-6684c600370d")
+	)
+	(wire
+		(pts
+			(xy 97.79 185.42) (xy 96.52 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5bd8f1a-74b6-433c-992e-f1728003fcfe")
 	)
 	(wire
 		(pts
@@ -6097,6 +6357,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 129.54) (xy 232.41 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae777123-183f-46af-9939-aaa2bbc3c2f1")
+	)
+	(wire
+		(pts
 			(xy 15.24 80.01) (xy 15.24 66.04)
 		)
 		(stroke
@@ -6117,7 +6387,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 186.69) (xy 146.05 186.69)
+			(xy 144.78 186.69) (xy 156.21 186.69)
 		)
 		(stroke
 			(width 0)
@@ -6127,7 +6397,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 101.6) (xy 232.41 101.6)
+			(xy 231.14 101.6) (xy 246.38 101.6)
 		)
 		(stroke
 			(width 0)
@@ -6147,6 +6417,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 142.24) (xy 232.41 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5645be8-404a-4dfd-8771-24a4e507820d")
+	)
+	(wire
+		(pts
 			(xy 45.72 167.64) (xy 54.61 167.64)
 		)
 		(stroke
@@ -6157,13 +6437,13 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 76.2) (xy 232.41 76.2)
+			(xy 119.38 175.26) (xy 119.38 176.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b5c45af3-cd4b-4959-87b9-05b36dc0644d")
+		(uuid "b70be7ba-2796-4d36-973d-76bfadafbef9")
 	)
 	(wire
 		(pts
@@ -6247,7 +6527,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 104.14) (xy 232.41 104.14)
+			(xy 231.14 104.14) (xy 246.38 104.14)
 		)
 		(stroke
 			(width 0)
@@ -6277,7 +6557,17 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 151.13) (xy 52.07 151.13)
+			(xy 36.83 34.29) (xy 38.1 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c88140d5-fcdc-4085-b6cd-a4e6d7c7c1a4")
+	)
+	(wire
+		(pts
+			(xy 43.18 151.13) (xy 44.45 151.13)
 		)
 		(stroke
 			(width 0)
@@ -6304,26 +6594,6 @@
 			(type default)
 		)
 		(uuid "ca938204-08d7-4c43-97b1-a637ebe384a3")
-	)
-	(wire
-		(pts
-			(xy 132.08 186.69) (xy 144.78 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb12e5fd-1826-47d8-92ba-94cfa395d618")
-	)
-	(wire
-		(pts
-			(xy 144.78 176.53) (xy 146.05 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbc43d7c-9ba4-49cd-8666-672a805a90eb")
 	)
 	(wire
 		(pts
@@ -6384,6 +6654,16 @@
 			(type default)
 		)
 		(uuid "d2310b88-7c77-45de-b447-1f887afd0f8e")
+	)
+	(wire
+		(pts
+			(xy 96.52 144.78) (xy 96.52 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2554656-f6dc-4dfa-9c34-858885047f61")
 	)
 	(wire
 		(pts
@@ -6457,7 +6737,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 71.12) (xy 232.41 71.12)
+			(xy 231.14 71.12) (xy 246.38 71.12)
 		)
 		(stroke
 			(width 0)
@@ -6467,13 +6747,23 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 83.82) (xy 232.41 83.82)
+			(xy 231.14 83.82) (xy 246.38 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "dd8e0aff-515a-46f3-9709-736b88c335f2")
+	)
+	(wire
+		(pts
+			(xy 96.52 140.97) (xy 96.52 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddd61d6e-0c1e-4c51-a534-eb22ef6995f4")
 	)
 	(wire
 		(pts
@@ -6487,6 +6777,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 19.05) (xy 35.56 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de4ec5bf-d45c-4d1c-a237-9d96a57950ea")
+	)
+	(wire
+		(pts
 			(xy 57.15 160.02) (xy 57.15 161.29)
 		)
 		(stroke
@@ -6494,6 +6794,16 @@
 			(type default)
 		)
 		(uuid "ded92401-63dd-486d-9478-b76beaa4ba80")
+	)
+	(wire
+		(pts
+			(xy 109.22 175.26) (xy 109.22 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df04e9c0-6e2f-469d-b58e-578ed708a2c6")
 	)
 	(wire
 		(pts
@@ -6527,7 +6837,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 106.68) (xy 232.41 106.68)
+			(xy 231.14 106.68) (xy 246.38 106.68)
 		)
 		(stroke
 			(width 0)
@@ -6607,13 +6917,13 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 176.53) (xy 132.08 176.53)
+			(xy 132.08 186.69) (xy 144.78 186.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eaf3ab38-ef11-48aa-bba3-92b3cd952667")
+		(uuid "e9623b94-1758-44cd-b447-e09a206961cd")
 	)
 	(wire
 		(pts
@@ -6637,7 +6947,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 91.44) (xy 232.41 91.44)
+			(xy 231.14 91.44) (xy 246.38 91.44)
 		)
 		(stroke
 			(width 0)
@@ -6654,16 +6964,6 @@
 			(type default)
 		)
 		(uuid "ef8d756f-d4ee-4359-9d0c-86a2c8e896b3")
-	)
-	(wire
-		(pts
-			(xy 144.78 195.58) (xy 144.78 196.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f031a9fd-15c5-4c30-9122-49279fa784e7")
 	)
 	(wire
 		(pts
@@ -6747,7 +7047,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 166.37) (xy 146.05 166.37)
+			(xy 144.78 166.37) (xy 156.21 166.37)
 		)
 		(stroke
 			(width 0)
@@ -6764,6 +7064,16 @@
 			(type default)
 		)
 		(uuid "f82aa7f5-6bbf-4b1d-8577-1775dd0a1b4b")
+	)
+	(wire
+		(pts
+			(xy 119.38 176.53) (xy 132.08 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f93ce00b-a9da-49d2-a6b4-3bf2da7e75c7")
 	)
 	(wire
 		(pts
@@ -6835,23 +7145,13 @@
 		)
 		(uuid "ff7b19fe-e7a9-4496-b0a7-d237473743ef")
 	)
-	(wire
-		(pts
-			(xy 119.38 175.26) (xy 119.38 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff8a92e3-7dde-4d14-afad-899fb95d82f0")
-	)
 	(label "MATRIX_R1"
-		(at 146.05 156.21 0)
+		(at 156.21 156.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "03fd8482-5a00-49d8-abc9-761beb13a7e0")
 	)
@@ -6866,12 +7166,12 @@
 		(uuid "04b847b7-8ee7-4846-9b6b-2291965b0533")
 	)
 	(label "MATRIX_R4"
-		(at 232.41 88.9 0)
+		(at 246.38 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "10dccf3f-c3e3-4a54-a505-2627c458e4a1")
 	)
@@ -6926,22 +7226,22 @@
 		(uuid "315ad02c-ba84-4a0f-8d99-58cb513d0805")
 	)
 	(label "MATRIX_C3"
-		(at 121.92 151.13 90)
+		(at 121.92 140.97 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "31b73c20-fcbc-46b0-8aa6-24d1f1898cab")
 	)
 	(label "ENCODER_1_A"
-		(at 232.41 96.52 0)
+		(at 246.38 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "3808303c-9b59-4df1-acb9-64d4991a437c")
 	)
@@ -6956,52 +7256,52 @@
 		(uuid "383747bd-ea9c-4760-837d-d808349bb61d")
 	)
 	(label "MATRIX_R2"
-		(at 146.05 166.37 0)
+		(at 156.21 166.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "38f7fe88-9934-4507-880e-5a94d14656e2")
 	)
 	(label "MATRIX_R3"
-		(at 146.05 176.53 0)
+		(at 156.21 176.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "39e17b63-5311-4d2e-aad9-de7b17d88f2c")
 	)
 	(label "MATRIX_R5"
-		(at 232.41 91.44 0)
+		(at 246.38 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "3ab1ea94-20b8-475e-b4e2-1ec4ce4c60d9")
 	)
 	(label "MATRIX_C1"
-		(at 96.52 151.13 90)
+		(at 96.52 140.97 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "3b01614a-8c6c-4f15-8737-8087d1ce5c81")
 	)
 	(label "NEOPIXEL_DIN"
-		(at 232.41 93.98 0)
+		(at 246.38 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "433e3810-a3cf-4c5b-bf17-f35a517bb908")
 	)
@@ -7046,12 +7346,12 @@
 		(uuid "54e5e6db-955a-4f81-bcc5-3d80a6605e63")
 	)
 	(label "ENCODER_1_S1"
-		(at 232.41 101.6 0)
+		(at 246.38 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "5d7bb541-5c1e-4222-bc39-e207ce14995a")
 	)
@@ -7086,12 +7386,12 @@
 		(uuid "76551a80-cd7e-43e2-bea1-3cab7fd6b9af")
 	)
 	(label "MATRIX_R1"
-		(at 232.41 81.28 0)
+		(at 246.38 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "76ff1eeb-daf9-4c8e-b4b0-d37ae84ca8e8")
 	)
@@ -7116,12 +7416,12 @@
 		(uuid "7aad3460-36e6-448c-9bb7-ad22912abfdb")
 	)
 	(label "MATRIX_R3"
-		(at 232.41 86.36 0)
+		(at 246.38 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "8072aa3c-bddb-40f9-a49e-92201ff64d5d")
 	)
@@ -7136,12 +7436,12 @@
 		(uuid "80e25ed9-ff56-401e-b325-0387eccd22d8")
 	)
 	(label "MATRIX_C4"
-		(at 134.62 151.13 90)
+		(at 134.62 140.97 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "8782c58d-7dd0-458f-8251-71636eaa2f36")
 	)
@@ -7156,22 +7456,22 @@
 		(uuid "87b1f668-6436-4ff1-8fcb-5303035f5a7f")
 	)
 	(label "MATRIX_C1"
-		(at 232.41 71.12 0)
+		(at 246.38 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "8af97390-4eee-4c42-90d9-a61955c99fe3")
 	)
 	(label "ENCODER_2_S1"
-		(at 232.41 109.22 0)
+		(at 246.38 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "8b9eafad-1602-40e9-8ee4-75e8f41c3383")
 	)
@@ -7186,22 +7486,22 @@
 		(uuid "925879af-5b62-4676-8afa-09fe0e15fbab")
 	)
 	(label "MATRIX_R4"
-		(at 146.05 186.69 0)
+		(at 156.21 186.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "98ebd4fc-664e-4ec1-878d-13f0c8359cb7")
 	)
 	(label "ENCODER_1_B"
-		(at 232.41 99.06 0)
+		(at 246.38 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "9e931da2-4558-46b6-9991-c97a6d66ad31")
 	)
@@ -7216,32 +7516,32 @@
 		(uuid "9f21a14d-6e0f-4d80-93a2-a70484750404")
 	)
 	(label "MATRIX_C3"
-		(at 232.41 76.2 0)
+		(at 246.38 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "a7db8fee-9bad-465d-a156-7b6988640115")
 	)
 	(label "MATRIX_R5"
-		(at 146.05 196.85 0)
+		(at 156.21 195.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "ad5f9455-683c-4e7c-9607-31e6e057a405")
 	)
 	(label "ENCODER_2_A"
-		(at 232.41 104.14 0)
+		(at 246.38 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "ae615c52-c42e-40cf-bea2-368692e9639d")
 	)
@@ -7256,12 +7556,12 @@
 		(uuid "b1d01503-0334-4028-86f2-761b0a6572d4")
 	)
 	(label "MATRIX_R2"
-		(at 232.41 83.82 0)
+		(at 246.38 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "b42ce4be-90d0-4d69-8cac-4ba1b891e7e5")
 	)
@@ -7286,12 +7586,12 @@
 		(uuid "bf384cb9-8346-4f15-a7ec-cf74082110ac")
 	)
 	(label "MATRIX_C2"
-		(at 232.41 73.66 0)
+		(at 246.38 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "c4a18146-3c4d-44ca-a810-9f58f77f6bab")
 	)
@@ -7306,12 +7606,12 @@
 		(uuid "c4a47754-a0fe-4c7f-8eb3-812361eba548")
 	)
 	(label "ENCODER_2_B"
-		(at 232.41 106.68 0)
+		(at 246.38 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "c8265434-10df-408a-b41a-66f0a942d3b9")
 	)
@@ -7336,12 +7636,12 @@
 		(uuid "e3581e04-ad1f-4ead-92f2-85bf0850e7d7")
 	)
 	(label "MATRIX_C4"
-		(at 232.41 78.74 0)
+		(at 246.38 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "e35a2f9f-7d19-41a0-bcb0-800c9e4abe9f")
 	)
@@ -7356,94 +7656,18 @@
 		(uuid "e7a85b92-2ce1-4c63-abd8-55bb40d0315c")
 	)
 	(label "MATRIX_C2"
-		(at 109.22 151.13 90)
+		(at 109.22 140.97 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "f40ab599-05d6-48a7-9d98-7057f815a1b6")
 	)
 	(symbol
-		(lib_id "LED:NeoPixel_THT")
-		(at 238.76 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00ce73ca-e13e-4439-82aa-c1d8d637f9c7")
-		(property "Reference" "D8"
-			(at 251.46 20.2498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NeoPixel_THT"
-			(at 251.46 22.7898 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 240.03 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.adafruit.com/product/1938"
-			(at 241.3 36.195 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
-			(at 238.76 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ae13c428-3648-4dc7-94f0-494868ee5a44")
-		)
-		(pin "4"
-			(uuid "2b4a957a-34db-427f-986c-06b5a51704ab")
-		)
-		(pin "3"
-			(uuid "dcb0812f-b027-4b97-a3b6-be0afe045c92")
-		)
-		(pin "2"
-			(uuid "5231eb94-d347-4f11-8e03-733a614a394f")
-		)
-		(instances
-			(project "Mini Macro Pad V3 PCB"
-				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 127 185.42 0)
+		(at 114.3 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7452,7 +7676,7 @@
 		(fields_autoplaced yes)
 		(uuid "029a297c-2139-4b70-8b11-35fb6024a931")
 		(property "Reference" "SW15"
-			(at 127 177.8 0)
+			(at 114.3 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7460,7 +7684,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 127 180.34 0)
+			(at 114.3 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7468,7 +7692,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
-			(at 127 180.34 0)
+			(at 114.3 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7477,7 +7701,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 180.34 0)
+			(at 114.3 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7486,7 +7710,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 127 185.42 0)
+			(at 114.3 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7570,6 +7794,82 @@
 			(project "Mini Macro Pad V3 PCB"
 				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 264.16 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "041cb769-bc4d-4cfa-89d2-f0f428140675")
+		(property "Reference" "D10"
+			(at 275.59 20.2498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 275.59 22.7898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 265.43 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 266.7 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 264.16 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0230f21b-d3b9-4851-8e4c-85be31905ad1")
+		)
+		(pin "1"
+			(uuid "f3da06eb-3efa-4ba6-bd26-eda4c8432012")
+		)
+		(pin "3"
+			(uuid "1d709e53-fcee-49b3-9a0d-603640e05e53")
+		)
+		(pin "4"
+			(uuid "0aa9db91-5d79-4045-a43c-5aef51768adf")
+		)
+		(instances
+			(project ""
+				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -7868,82 +8168,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:NeoPixel_THT")
-		(at 60.96 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "099b430e-d6e0-4846-9ad4-9757e3768ec9")
-		(property "Reference" "D2"
-			(at 73.66 20.2498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NeoPixel_THT"
-			(at 73.66 22.7898 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 62.23 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.adafruit.com/product/1938"
-			(at 63.5 36.195 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
-			(at 60.96 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "60447c59-61d9-4daf-a3ab-c85c1dd4b749")
-		)
-		(pin "4"
-			(uuid "f7d2490f-a720-4597-a193-f4c3e8294b53")
-		)
-		(pin "3"
-			(uuid "d3918a75-6139-4cbb-9f66-7bd41da8d5cb")
-		)
-		(pin "2"
-			(uuid "ec6f004e-c9cd-4afc-9338-f12acbc3a061")
-		)
-		(instances
-			(project "Mini Macro Pad V3 PCB"
-				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 139.7 165.1 0)
 		(unit 1)
@@ -8229,7 +8453,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 139.7 175.26 0)
+		(at 127 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8238,7 +8462,7 @@
 		(fields_autoplaced yes)
 		(uuid "12036424-23c4-4463-8f42-3a9a9a134229")
 		(property "Reference" "SW16"
-			(at 139.7 167.64 0)
+			(at 127 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8246,7 +8470,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 139.7 170.18 0)
+			(at 127 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8254,7 +8478,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
-			(at 139.7 170.18 0)
+			(at 127 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8263,7 +8487,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 170.18 0)
+			(at 127 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8272,7 +8496,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 139.7 175.26 0)
+			(at 127 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8290,82 +8514,6 @@
 			(project "Mini Macro Pad V3 PCB"
 				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
 					(reference "SW16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:NeoPixel_THT")
-		(at 264.16 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1401ebd1-5085-43ec-bfb2-dd0490a26e44")
-		(property "Reference" "D9"
-			(at 276.86 20.2498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NeoPixel_THT"
-			(at 276.86 22.7898 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 265.43 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.adafruit.com/product/1938"
-			(at 266.7 36.195 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
-			(at 264.16 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "344a60aa-3943-4779-97dd-02fc593da7a0")
-		)
-		(pin "4"
-			(uuid "43751b8d-86a1-4f7c-a554-df90be2c4faf")
-		)
-		(pin "3"
-			(uuid "ad04c648-a22a-44f6-8d4c-e8089727c04f")
-		)
-		(pin "2"
-			(uuid "5761c13e-d7f0-4b0a-b643-cfba2d7dafd8")
-		)
-		(instances
-			(project "Mini Macro Pad V3 PCB"
-				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
-					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -8576,6 +8724,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 232.41 132.08 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "180ea314-194c-4abc-b056-ae27c95fcf35")
+		(property "Reference" "TP11"
+			(at 237.236 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 237.49 133.3499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 232.41 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 232.41 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f891a92c-0217-477c-b6e7-9eb9f65db457")
+		)
+		(instances
+			(project "Mini Macro Pad V3 PCB"
+				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 21.59 113.03 0)
 		(unit 1)
@@ -8706,6 +8921,82 @@
 			(project ""
 				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
 					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 162.56 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b3eb226-96cb-43ba-9be6-703592b8b4e3")
+		(property "Reference" "D6"
+			(at 173.99 20.2498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 173.99 22.7898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 163.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 165.1 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 162.56 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0230f21b-d3b9-4851-8e4c-85be31905ad1")
+		)
+		(pin "1"
+			(uuid "f3da06eb-3efa-4ba6-bd26-eda4c8432012")
+		)
+		(pin "3"
+			(uuid "1d709e53-fcee-49b3-9a0d-603640e05e53")
+		)
+		(pin "4"
+			(uuid "0aa9db91-5d79-4045-a43c-5aef51768adf")
+		)
+		(instances
+			(project ""
+				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -8845,6 +9136,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 38.1 34.29 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e12d5eb-5af5-45ae-bd9b-41e0f029a671")
+		(property "Reference" "TP19"
+			(at 42.926 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 43.18 35.5599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 38.1 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 38.1 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4719010-b054-4e78-bbd9-93b31b7eba84")
+		)
+		(instances
+			(project "Mini Macro Pad V3 PCB"
+				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
+					(reference "TP19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 62.23 34.29 0)
 		(unit 1)
@@ -8905,6 +9263,73 @@
 			(project ""
 				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 44.45 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2058f33e-1d85-4e2e-881b-ce65a5bb06a1")
+		(property "Reference" "TP22"
+			(at 44.45 146.304 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 45.7199 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 49.53 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 44.45 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "017f3cce-3fda-4d2b-88f8-8e30e1ab4555")
+		)
+		(instances
+			(project "Mini Macro Pad V3 PCB"
+				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
+					(reference "TP22")
 					(unit 1)
 				)
 			)
@@ -8973,6 +9398,73 @@
 			(project "Mini Macro Pad V3 PCB"
 				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
 					(reference "SW19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 232.41 121.92 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2256f1cb-a4f3-4a93-84f9-8bf105794816")
+		(property "Reference" "TP7"
+			(at 237.236 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 237.49 123.1899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 232.41 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 232.41 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8565200c-47a5-4292-8fd2-477a62871bce")
+		)
+		(instances
+			(project "Mini Macro Pad V3 PCB"
+				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -9443,6 +9935,82 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:WS2812B")
+		(at 137.16 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32bd610a-8d9b-4fb8-931f-40cb9cdd7b03")
+		(property "Reference" "D5"
+			(at 148.59 20.2498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 148.59 22.7898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 138.43 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 139.7 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 137.16 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0230f21b-d3b9-4851-8e4c-85be31905ad1")
+		)
+		(pin "1"
+			(uuid "f3da06eb-3efa-4ba6-bd26-eda4c8432012")
+		)
+		(pin "3"
+			(uuid "1d709e53-fcee-49b3-9a0d-603640e05e53")
+		)
+		(pin "4"
+			(uuid "0aa9db91-5d79-4045-a43c-5aef51768adf")
+		)
+		(instances
+			(project ""
+				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 83.82 156.21 0)
 		(unit 1)
@@ -9579,6 +10147,82 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:WS2812B")
+		(at 60.96 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38dcc7a8-e15f-4f6a-b724-3bdf29b137c0")
+		(property "Reference" "D2"
+			(at 72.39 20.2498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 72.39 22.7898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 62.23 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 63.5 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 60.96 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0230f21b-d3b9-4851-8e4c-85be31905ad1")
+		)
+		(pin "1"
+			(uuid "f3da06eb-3efa-4ba6-bd26-eda4c8432012")
+		)
+		(pin "3"
+			(uuid "1d709e53-fcee-49b3-9a0d-603640e05e53")
+		)
+		(pin "4"
+			(uuid "0aa9db91-5d79-4045-a43c-5aef51768adf")
+		)
+		(instances
+			(project ""
+				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 170.18 135.89 90)
 		(unit 1)
@@ -9604,7 +10248,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
 			(at 170.18 130.81 0)
 			(effects
 				(font
@@ -9638,6 +10282,149 @@
 			(project ""
 				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
 					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 111.76 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3989b9c8-c5d0-4f01-bfae-3365e024516c")
+		(property "Reference" "D4"
+			(at 123.19 20.2498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 123.19 22.7898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 113.03 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 114.3 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 111.76 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0230f21b-d3b9-4851-8e4c-85be31905ad1")
+		)
+		(pin "1"
+			(uuid "f3da06eb-3efa-4ba6-bd26-eda4c8432012")
+		)
+		(pin "3"
+			(uuid "1d709e53-fcee-49b3-9a0d-603640e05e53")
+		)
+		(pin "4"
+			(uuid "0aa9db91-5d79-4045-a43c-5aef51768adf")
+		)
+		(instances
+			(project ""
+				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 232.41 134.62 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3b6dab4a-5c2a-4ab9-b1d7-2a3481d6f9d1")
+		(property "Reference" "TP12"
+			(at 237.236 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 237.49 135.8899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 232.41 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 232.41 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f53e9bfe-47d8-4635-8abf-4cdbf329a44f")
+		)
+		(instances
+			(project "Mini Macro Pad V3 PCB"
+				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -9916,82 +10703,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:NeoPixel_THT")
-		(at 213.36 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "46a4fff1-b866-4fb6-a28f-737f4e2e69e3")
-		(property "Reference" "D7"
-			(at 226.06 20.2498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NeoPixel_THT"
-			(at 226.06 22.7898 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 214.63 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.adafruit.com/product/1938"
-			(at 215.9 36.195 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
-			(at 213.36 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aff77d1b-d405-4949-9ee4-bef90ac0d616")
-		)
-		(pin "4"
-			(uuid "5aa08941-36c4-4240-b4dc-369ef8896690")
-		)
-		(pin "3"
-			(uuid "ddfbdf64-f69c-490e-8721-d5dc34f4f0e7")
-		)
-		(pin "2"
-			(uuid "2f88a82d-0073-4909-846d-586519b7f7d4")
-		)
-		(instances
-			(project "Mini Macro Pad V3 PCB"
-				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 15.24 81.28 0)
 		(unit 1)
@@ -10058,53 +10769,53 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:NeoPixel_THT")
-		(at 111.76 26.67 0)
+		(lib_id "Connector:TestPoint")
+		(at 232.41 142.24 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4c4087eb-ea1a-4c7f-b52b-f62375d22eb4")
-		(property "Reference" "D4"
-			(at 124.46 20.2498 0)
+		(uuid "48922fe9-3263-40a4-81df-0bd5cd31238b")
+		(property "Reference" "TP14"
+			(at 237.236 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "NeoPixel_THT"
-			(at 124.46 22.7898 0)
+		(property "Value" "~"
+			(at 237.49 143.5099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 113.03 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.adafruit.com/product/1938"
-			(at 114.3 36.195 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 232.41 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
-			(at 111.76 26.67 0)
+		(property "Datasheet" "~"
+			(at 232.41 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 232.41 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10113,21 +10824,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "9e9dac74-5a28-453d-817a-915efbce9628")
-		)
-		(pin "4"
-			(uuid "9a4dd8fc-2016-45f1-a8d0-0aac919790c1")
-		)
-		(pin "3"
-			(uuid "97ed402e-7d77-41a7-8b38-6e1c7b202202")
-		)
-		(pin "2"
-			(uuid "fab6ae7c-8a38-40dc-b0c1-5dba5544f179")
+			(uuid "d76b62eb-d4f7-4b39-b583-43575e6854e8")
 		)
 		(instances
 			(project "Mini Macro Pad V3 PCB"
 				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
-					(reference "D4")
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -10196,6 +10898,149 @@
 			(project "Mini Macro Pad V3 PCB"
 				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
 					(reference "SW21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 134.62 144.78 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4dd26cde-361d-49ec-8283-514edeefe736")
+		(property "Reference" "TP28"
+			(at 139.446 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 139.7 146.0499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 134.62 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 134.62 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd52aeee-27ac-4fc0-a6e8-03f4275e57da")
+		)
+		(instances
+			(project "Mini Macro Pad V3 PCB"
+				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
+					(reference "TP28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 213.36 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5124a17c-cd96-4987-9598-1df4b0d67233")
+		(property "Reference" "D8"
+			(at 224.79 20.2498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 224.79 22.7898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 214.63 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 215.9 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 213.36 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0230f21b-d3b9-4851-8e4c-85be31905ad1")
+		)
+		(pin "1"
+			(uuid "f3da06eb-3efa-4ba6-bd26-eda4c8432012")
+		)
+		(pin "3"
+			(uuid "1d709e53-fcee-49b3-9a0d-603640e05e53")
+		)
+		(pin "4"
+			(uuid "0aa9db91-5d79-4045-a43c-5aef51768adf")
+		)
+		(instances
+			(project ""
+				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -10339,7 +11184,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 114.3 185.42 0)
+		(at 139.7 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10348,7 +11193,7 @@
 		(fields_autoplaced yes)
 		(uuid "55e60fd3-346b-414f-891a-b9cf8d0f14dc")
 		(property "Reference" "SW13"
-			(at 114.3 177.8 0)
+			(at 139.7 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10356,7 +11201,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 114.3 180.34 0)
+			(at 139.7 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10364,7 +11209,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
-			(at 114.3 180.34 0)
+			(at 139.7 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10373,7 +11218,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 180.34 0)
+			(at 139.7 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10382,7 +11227,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 114.3 185.42 0)
+			(at 139.7 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10400,6 +11245,149 @@
 			(project "Mini Macro Pad V3 PCB"
 				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
 					(reference "SW13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 232.41 116.84 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "581d681b-9795-4804-8f91-6a32846a7f59")
+		(property "Reference" "TP5"
+			(at 237.236 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 237.49 118.1099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 232.41 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 232.41 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c797e64-df2b-4dd4-b419-5041b276b1eb")
+		)
+		(instances
+			(project "Mini Macro Pad V3 PCB"
+				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 35.56 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "588219a6-54cd-438f-a542-afb0e953fede")
+		(property "Reference" "D1"
+			(at 46.99 20.2498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 46.99 22.7898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 36.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 38.1 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 35.56 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0230f21b-d3b9-4851-8e4c-85be31905ad1")
+		)
+		(pin "1"
+			(uuid "f3da06eb-3efa-4ba6-bd26-eda4c8432012")
+		)
+		(pin "3"
+			(uuid "1d709e53-fcee-49b3-9a0d-603640e05e53")
+		)
+		(pin "4"
+			(uuid "0aa9db91-5d79-4045-a43c-5aef51768adf")
+		)
+		(instances
+			(project ""
+				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -10675,6 +11663,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 69.85 160.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6445096b-bfd0-4c72-a6d7-0c0a67a8e1cf")
+		(property "Reference" "TP21"
+			(at 65.024 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 64.77 158.7501 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 69.85 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 69.85 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6ebe4e4-1cff-4bd7-8fa0-711f5a5c41b4")
+		)
+		(instances
+			(project "Mini Macro Pad V3 PCB"
+				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
+					(reference "TP21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 114.3 165.1 0)
 		(unit 1)
@@ -10737,6 +11792,73 @@
 			(project "Mini Macro Pad V3 PCB"
 				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
 					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 232.41 147.32 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "652122eb-2bbc-49f8-863e-c42501944402")
+		(property "Reference" "TP16"
+			(at 237.236 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 237.49 148.5899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 232.41 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 232.41 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af449c09-4674-43f4-a0a2-ba086737aa58")
+		)
+		(instances
+			(project "Mini Macro Pad V3 PCB"
+				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
+					(reference "TP16")
 					(unit 1)
 				)
 			)
@@ -10813,6 +11935,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 232.41 144.78 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "669cd660-f1a3-42b8-9f62-5bcf6c818431")
+		(property "Reference" "TP15"
+			(at 237.236 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 237.49 146.0499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 232.41 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 232.41 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d388e83d-c74b-443a-af4e-59f22dbcef54")
+		)
+		(instances
+			(project "Mini Macro Pad V3 PCB"
+				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
+					(reference "TP15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 232.41 119.38 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67a61d7d-bfb9-49a8-9fde-d4fea18dd3a5")
+		(property "Reference" "TP6"
+			(at 237.236 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 237.49 120.6499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 232.41 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 232.41 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33992c9d-d7c6-4c6c-bfe5-a8fb95cc53b6")
+		)
+		(instances
+			(project "Mini Macro Pad V3 PCB"
+				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 20.32 80.01 90)
 		(unit 1)
@@ -10881,6 +12137,82 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:WS2812B")
+		(at 86.36 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ed3fa87-0502-4538-b557-2112259d2e6b")
+		(property "Reference" "D3"
+			(at 97.79 20.2498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 97.79 22.7898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 87.63 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 88.9 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 86.36 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0230f21b-d3b9-4851-8e4c-85be31905ad1")
+		)
+		(pin "1"
+			(uuid "f3da06eb-3efa-4ba6-bd26-eda4c8432012")
+		)
+		(pin "3"
+			(uuid "1d709e53-fcee-49b3-9a0d-603640e05e53")
+		)
+		(pin "4"
+			(uuid "0aa9db91-5d79-4045-a43c-5aef51768adf")
+		)
+		(instances
+			(project ""
+				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 110.49 133.35 0)
 		(unit 1)
@@ -10941,6 +12273,73 @@
 			(project "Mini Macro Pad V3 PCB"
 				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
 					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 144.78 157.48 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "71f46004-5062-46d4-83d0-875540c7d5b4")
+		(property "Reference" "TP23"
+			(at 149.606 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 149.86 158.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 144.78 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 144.78 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e63639a-0be1-41dd-acd0-599c2ceb263c")
+		)
+		(instances
+			(project "Mini Macro Pad V3 PCB"
+				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
+					(reference "TP23")
 					(unit 1)
 				)
 			)
@@ -11018,33 +12417,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 101.6 185.42 0)
+		(lib_id "Connector:TestPoint")
+		(at 96.52 144.78 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7b14be20-2b94-4a4e-b1d5-17db9f41628f")
-		(property "Reference" "SW11"
-			(at 101.6 177.8 0)
+		(uuid "73cff3c3-4062-464a-9132-79f01d868579")
+		(property "Reference" "TP31"
+			(at 101.346 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 101.6 180.34 0)
+		(property "Value" "~"
+			(at 101.6 146.0499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
-			(at 101.6 180.34 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 96.52 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11053,7 +12454,206 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 180.34 0)
+			(at 96.52 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 96.52 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee078d1a-3fd3-43a5-8ecf-5a57df926e4a")
+		)
+		(instances
+			(project "Mini Macro Pad V3 PCB"
+				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
+					(reference "TP31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 144.78 196.85 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7a96ce5e-35a7-4b67-80b9-4c20ba8599f9")
+		(property "Reference" "TP27"
+			(at 149.606 196.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 149.86 198.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 144.78 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 144.78 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f28fee93-ac4e-40cf-8262-88b355d8215f")
+		)
+		(instances
+			(project "Mini Macro Pad V3 PCB"
+				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
+					(reference "TP27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 232.41 114.3 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7a9aa8ff-e321-4502-ad0d-35460b7db378")
+		(property "Reference" "TP4"
+			(at 237.236 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 237.49 115.5699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 232.41 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 232.41 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7455770f-7a3f-4dad-af3d-25a45e71716e")
+		)
+		(instances
+			(project "Mini Macro Pad V3 PCB"
+				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 114.3 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b14be20-2b94-4a4e-b1d5-17db9f41628f")
+		(property "Reference" "SW11"
+			(at 114.3 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 114.3 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
+			(at 114.3 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11062,7 +12662,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 101.6 185.42 0)
+			(at 114.3 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11080,6 +12680,73 @@
 			(project "Mini Macro Pad V3 PCB"
 				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
 					(reference "SW11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 121.92 144.78 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7be748f7-e957-4481-aee1-f438976ebea6")
+		(property "Reference" "TP29"
+			(at 126.746 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 127 146.0499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 121.92 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 121.92 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4fcf0b1-349a-48ea-9231-cc21c95a95c6")
+		)
+		(instances
+			(project "Mini Macro Pad V3 PCB"
+				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
+					(reference "TP29")
 					(unit 1)
 				)
 			)
@@ -11212,6 +12879,140 @@
 			(project "Mini Macro Pad V3 PCB"
 				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 26.67 26.67 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "874c5ebf-7f58-4245-970a-ca6cad8c3023")
+		(property "Reference" "TP17"
+			(at 26.67 31.496 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 25.4001 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 21.59 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 21.59 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 26.67 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42613a2a-8f38-4532-a818-6da0eff63eb7")
+		)
+		(instances
+			(project "Mini Macro Pad V3 PCB"
+				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
+					(reference "TP17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 232.41 139.7 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8bef0d5d-6d99-4df9-86d3-5c553dced202")
+		(property "Reference" "TP13"
+			(at 237.236 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 237.49 140.9699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 232.41 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 232.41 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76c87a52-dc98-401a-b60e-aa6f387969f0")
+		)
+		(instances
+			(project "Mini Macro Pad V3 PCB"
+				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -11997,53 +13798,53 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:NeoPixel_THT")
-		(at 162.56 26.67 0)
+		(lib_id "Connector:TestPoint")
+		(at 232.41 127 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a5e8102d-a65f-4a20-a9b8-64433581f568")
-		(property "Reference" "D6"
-			(at 175.26 20.2498 0)
+		(uuid "a45bbbd6-db74-4411-b314-014f1ce415f7")
+		(property "Reference" "TP9"
+			(at 237.236 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "NeoPixel_THT"
-			(at 175.26 22.7898 0)
+		(property "Value" "~"
+			(at 237.49 128.2699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 163.83 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.adafruit.com/product/1938"
-			(at 165.1 36.195 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 232.41 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
-			(at 162.56 26.67 0)
+		(property "Datasheet" "~"
+			(at 232.41 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 232.41 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12052,21 +13853,146 @@
 			)
 		)
 		(pin "1"
-			(uuid "16a094ac-b66f-459d-bc72-ebfc8912bd47")
-		)
-		(pin "4"
-			(uuid "51412f1d-bb15-454a-9559-52739293ead4")
-		)
-		(pin "3"
-			(uuid "0ca77cb1-ae06-431e-b27b-76e4d11a371c")
-		)
-		(pin "2"
-			(uuid "564182f8-3470-4797-a195-8f3eadba6927")
+			(uuid "b501c85f-ce16-4a27-a4de-e4635f3773fb")
 		)
 		(instances
 			(project "Mini Macro Pad V3 PCB"
 				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
-					(reference "D6")
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 144.78 167.64 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a5cb11b3-dd05-4805-bba8-cd1f6f95cb76")
+		(property "Reference" "TP24"
+			(at 149.606 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 149.86 168.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 144.78 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 144.78 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a46e111-28bd-436b-9da1-a597d9c3dd41")
+		)
+		(instances
+			(project "Mini Macro Pad V3 PCB"
+				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
+					(reference "TP24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 144.78 187.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a73cc6d1-3cf2-4c57-8588-c4bd9e52f48a")
+		(property "Reference" "TP26"
+			(at 149.606 187.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 149.86 189.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 144.78 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 144.78 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a739327a-5725-4f1e-970a-5d9ba7b99b87")
+		)
+		(instances
+			(project "Mini Macro Pad V3 PCB"
+				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
+					(reference "TP26")
 					(unit 1)
 				)
 			)
@@ -12141,33 +14067,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 127 175.26 0)
+		(lib_id "Connector:TestPoint")
+		(at 144.78 177.8 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aa203c27-24ca-4f13-9c63-59f93ca9c5ba")
-		(property "Reference" "SW14"
-			(at 127 167.64 0)
+		(uuid "aa16c949-4f2a-49a6-b868-3a74b639fd21")
+		(property "Reference" "TP25"
+			(at 149.606 177.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 127 170.18 0)
+		(property "Value" "~"
+			(at 149.86 179.0699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
-			(at 127 170.18 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 144.78 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12176,7 +14104,72 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 170.18 0)
+			(at 144.78 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 144.78 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ff53e51-b556-4478-9b1a-3a11afe29129")
+		)
+		(instances
+			(project "Mini Macro Pad V3 PCB"
+				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
+					(reference "TP25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 101.6 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa203c27-24ca-4f13-9c63-59f93ca9c5ba")
+		(property "Reference" "SW14"
+			(at 101.6 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 101.6 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
+			(at 101.6 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12185,7 +14178,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 127 175.26 0)
+			(at 101.6 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12335,6 +14328,82 @@
 			(project "Mini Macro Pad V3 PCB"
 				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 187.96 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b288b93a-31c0-46d5-bfc3-b5891e7dff8c")
+		(property "Reference" "D7"
+			(at 199.39 20.2498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 199.39 22.7898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 189.23 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 190.5 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 187.96 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0230f21b-d3b9-4851-8e4c-85be31905ad1")
+		)
+		(pin "1"
+			(uuid "f3da06eb-3efa-4ba6-bd26-eda4c8432012")
+		)
+		(pin "3"
+			(uuid "1d709e53-fcee-49b3-9a0d-603640e05e53")
+		)
+		(pin "4"
+			(uuid "0aa9db91-5d79-4045-a43c-5aef51768adf")
+		)
+		(instances
+			(project ""
+				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -12539,6 +14608,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 232.41 124.46 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b5f36bc4-dd98-4963-ba95-48726c16e52b")
+		(property "Reference" "TP8"
+			(at 237.236 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 237.49 125.7299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 232.41 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 232.41 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c96392e0-e5a4-445e-aaf7-f23ebf55197d")
+		)
+		(instances
+			(project "Mini Macro Pad V3 PCB"
+				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 20.32 66.04 90)
 		(unit 1)
@@ -12607,53 +14743,53 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:NeoPixel_THT")
-		(at 137.16 26.67 0)
+		(lib_id "Connector:TestPoint")
+		(at 109.22 144.78 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bc56ff2b-1179-4052-b535-b5895e245862")
-		(property "Reference" "D5"
-			(at 149.86 20.2498 0)
+		(uuid "bc5b3f8d-5300-4dcd-b496-8fa81cbdb7df")
+		(property "Reference" "TP30"
+			(at 114.046 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "NeoPixel_THT"
-			(at 149.86 22.7898 0)
+		(property "Value" "~"
+			(at 114.3 146.0499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 138.43 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.adafruit.com/product/1938"
-			(at 139.7 36.195 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 109.22 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
-			(at 137.16 26.67 0)
+		(property "Datasheet" "~"
+			(at 109.22 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 109.22 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12662,64 +14798,45 @@
 			)
 		)
 		(pin "1"
-			(uuid "e3f664de-1811-4cad-ac9b-c65e8ff529b3")
-		)
-		(pin "4"
-			(uuid "54a97db5-f102-4823-8ecc-fcab28d05aa2")
-		)
-		(pin "3"
-			(uuid "b31eb7a5-12e7-4405-aee5-8bec754f3087")
-		)
-		(pin "2"
-			(uuid "64645820-cd7a-4960-9c5d-c36595923c0f")
+			(uuid "02dec4af-4e34-47a4-be7b-b1a261a779e3")
 		)
 		(instances
 			(project "Mini Macro Pad V3 PCB"
 				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
-					(reference "D5")
+					(reference "TP30")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LED:NeoPixel_THT")
-		(at 35.56 26.67 0)
+		(lib_id "LED:WS2812B")
+		(at 238.76 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "be7601c3-fdc7-4d59-969d-91a266f1187b")
-		(property "Reference" "D1"
-			(at 48.26 20.2498 0)
+		(uuid "c3b3e4a3-f454-41ac-9090-c7aa959b764a")
+		(property "Reference" "D9"
+			(at 250.19 20.2498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "NeoPixel_THT"
-			(at 48.26 22.7898 0)
+		(property "Value" "WS2812B"
+			(at 250.19 22.7898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 36.83 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.adafruit.com/product/1938"
-			(at 38.1 36.195 0)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 240.03 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12728,31 +14845,41 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
-			(at 35.56 26.67 0)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 241.3 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 238.76 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "9b88785d-a527-4787-a04b-327c5c6f4dcf")
-		)
-		(pin "4"
-			(uuid "363ed4a0-5aa5-4ebd-b33c-4a0d8a0c9997")
-		)
-		(pin "3"
-			(uuid "fcc67ddb-1d6e-4521-89dd-e1a816f8bad0")
 		)
 		(pin "2"
-			(uuid "6f81d662-43f4-4bb5-8697-944e87fbeffc")
+			(uuid "0230f21b-d3b9-4851-8e4c-85be31905ad1")
+		)
+		(pin "1"
+			(uuid "f3da06eb-3efa-4ba6-bd26-eda4c8432012")
+		)
+		(pin "3"
+			(uuid "1d709e53-fcee-49b3-9a0d-603640e05e53")
+		)
+		(pin "4"
+			(uuid "0aa9db91-5d79-4045-a43c-5aef51768adf")
 		)
 		(instances
 			(project ""
 				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
-					(reference "D1")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -12889,82 +15016,6 @@
 			(project ""
 				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:NeoPixel_THT")
-		(at 86.36 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c8eb0794-91da-4879-91c1-57ad13d199a6")
-		(property "Reference" "D3"
-			(at 99.06 20.2498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NeoPixel_THT"
-			(at 99.06 22.7898 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 87.63 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.adafruit.com/product/1938"
-			(at 88.9 36.195 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
-			(at 86.36 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b6c0c011-31f5-4622-b8df-138fe33370bc")
-		)
-		(pin "4"
-			(uuid "73526080-8794-4fe8-8aba-030b27d49678")
-		)
-		(pin "3"
-			(uuid "ea0566db-f77b-4f25-9085-da2bcfda71bf")
-		)
-		(pin "2"
-			(uuid "c3d54ad3-3f84-4d28-b87b-761c53c98ec5")
-		)
-		(instances
-			(project "Mini Macro Pad V3 PCB"
-				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
-					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -13613,6 +15664,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 78.74 151.13 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dd2ad070-1fa0-4548-a99f-f3a207f082a2")
+		(property "Reference" "TP20"
+			(at 78.74 155.956 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 77.4701 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 73.66 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 78.74 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90b1875a-b2ba-49d4-8479-1457bc6ada81")
+		)
+		(instances
+			(project "Mini Macro Pad V3 PCB"
+				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
+					(reference "TP20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 36.83 19.05 0)
 		(unit 1)
@@ -13961,6 +16079,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 232.41 111.76 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ee26479c-3eae-4ca0-a98b-1b74decb8df8")
+		(property "Reference" "TP3"
+			(at 237.236 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 237.49 113.0299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 232.41 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 232.41 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "294d982f-bc43-4021-abc2-156b4f9c81e1")
+		)
+		(instances
+			(project "Mini Macro Pad V3 PCB"
+				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 196.85 59.69 0)
 		(unit 1)
@@ -14025,82 +16210,6 @@
 			(project "Mini Macro Pad V3 PCB"
 				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
 					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:NeoPixel_THT")
-		(at 187.96 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f09e8753-6d5f-4f42-8512-283c653708d9")
-		(property "Reference" "D10"
-			(at 200.66 20.2498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NeoPixel_THT"
-			(at 200.66 22.7898 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 189.23 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.adafruit.com/product/1938"
-			(at 190.5 36.195 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
-			(at 187.96 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "25c401ac-aef9-4234-b723-eda278be5114")
-		)
-		(pin "4"
-			(uuid "852c5bd6-c6e8-4ccc-9189-63d1dfee0db6")
-		)
-		(pin "3"
-			(uuid "b199bcf3-316e-4a0c-927c-d3cae8113718")
-		)
-		(pin "2"
-			(uuid "32756c4c-f09d-448b-b9d2-ec93e4c1426c")
-		)
-		(instances
-			(project "Mini Macro Pad V3 PCB"
-				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
-					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -14174,7 +16283,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 114.3 175.26 0)
+		(at 127 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14183,7 +16292,7 @@
 		(fields_autoplaced yes)
 		(uuid "f6dafdc1-0844-4420-9dcf-89063cdc5c5c")
 		(property "Reference" "SW12"
-			(at 114.3 167.64 0)
+			(at 127 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14191,7 +16300,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 114.3 170.18 0)
+			(at 127 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14199,7 +16308,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
-			(at 114.3 170.18 0)
+			(at 127 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14208,7 +16317,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 170.18 0)
+			(at 127 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14217,7 +16326,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 114.3 175.26 0)
+			(at 127 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14235,6 +16344,73 @@
 			(project "Mini Macro Pad V3 PCB"
 				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
 					(reference "SW12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 34.29 19.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f7f9049f-4995-47f0-b968-568c44d8e60f")
+		(property "Reference" "TP18"
+			(at 29.464 19.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 29.21 17.7801 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 34.29 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 34.29 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce2a6c14-d8d6-4112-9277-825bc248b7f9")
+		)
+		(instances
+			(project "Mini Macro Pad V3 PCB"
+				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
+					(reference "TP18")
 					(unit 1)
 				)
 			)
@@ -14508,6 +16684,73 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 232.41 129.54 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fdfca26f-e742-4703-9177-4fdf5f75e2a5")
+		(property "Reference" "TP10"
+			(at 237.236 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 237.49 130.8099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 232.41 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 232.41 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f66436bd-2eef-4072-84a1-a2325dbaf5c8")
+		)
+		(instances
+			(project "Mini Macro Pad V3 PCB"
+				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 170.18 143.51 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14532,7 +16775,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
 			(at 170.18 138.43 0)
 			(effects
 				(font
