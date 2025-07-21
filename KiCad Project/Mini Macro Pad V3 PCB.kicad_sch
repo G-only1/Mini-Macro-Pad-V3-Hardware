@@ -4698,12 +4698,32 @@
 		(uuid "fe0a9212-8dee-4dd7-8827-3f21fa57ea52")
 	)
 	(no_connect
-		(at 180.34 71.12)
-		(uuid "d007d458-6be1-431f-b01f-0726dba1d8b7")
+		(at 232.41 109.22)
+		(uuid "4401649b-840c-4575-9663-0d9cadf1151a")
+	)
+	(no_connect
+		(at 232.41 111.76)
+		(uuid "61fc4914-e3c7-4415-8310-8e1a1c807858")
+	)
+	(no_connect
+		(at 232.41 106.68)
+		(uuid "bfde9483-748c-453a-adab-7b45ab0acf72")
+	)
+	(no_connect
+		(at 232.41 116.84)
+		(uuid "c2a6a9e2-4ea3-4592-978a-a2cac32d9ab3")
 	)
 	(no_connect
 		(at 271.78 26.67)
 		(uuid "d6f0525a-615d-407f-8380-0051cae69912")
+	)
+	(no_connect
+		(at 232.41 114.3)
+		(uuid "db92fe6f-72a8-4ec5-aa14-5cd031b5e972")
+	)
+	(no_connect
+		(at 232.41 119.38)
+		(uuid "ffae94d1-0448-47a1-a44d-9d2c49e0a6e3")
 	)
 	(wire
 		(pts
@@ -6404,6 +6424,16 @@
 			(type default)
 		)
 		(uuid "905e44d1-9c9b-4b1f-89d1-fb33d1363afc")
+	)
+	(wire
+		(pts
+			(xy 179.07 71.12) (xy 180.34 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91ec0d27-cc6e-4008-b0b5-b7593feb6b7c")
 	)
 	(wire
 		(pts
@@ -9251,73 +9281,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 232.41 116.84 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "180ea314-194c-4abc-b056-ae27c95fcf35")
-		(property "Reference" "TP11"
-			(at 237.236 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 237.49 118.1099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 232.41 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 232.41 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 232.41 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f891a92c-0217-477c-b6e7-9eb9f65db457")
-		)
-		(instances
-			(project "Mini Macro Pad V3 PCB"
-				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
-					(reference "TP11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 21.59 113.03 0)
 		(unit 1)
@@ -10059,73 +10022,6 @@
 			(project "Mini Macro Pad V3 PCB"
 				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
 					(reference "SW19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 232.41 106.68 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2256f1cb-a4f3-4a93-84f9-8bf105794816")
-		(property "Reference" "TP7"
-			(at 237.236 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 237.49 107.9499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 232.41 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 232.41 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 232.41 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8565200c-47a5-4292-8fd2-477a62871bce")
-		)
-		(instances
-			(project "Mini Macro Pad V3 PCB"
-				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
-					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -11019,73 +10915,6 @@
 			(project ""
 				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
 					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 232.41 119.38 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3b6dab4a-5c2a-4ab9-b1d7-2a3481d6f9d1")
-		(property "Reference" "TP12"
-			(at 237.236 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 237.49 120.6499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 232.41 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 232.41 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 232.41 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f53e9bfe-47d8-4635-8abf-4cdbf329a44f")
-		)
-		(instances
-			(project "Mini Macro Pad V3 PCB"
-				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
-					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -15202,73 +15031,6 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 232.41 111.76 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a45bbbd6-db74-4411-b314-014f1ce415f7")
-		(property "Reference" "TP9"
-			(at 237.236 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 237.49 113.0299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 232.41 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 232.41 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 232.41 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b501c85f-ce16-4a27-a4de-e4635f3773fb")
-		)
-		(instances
-			(project "Mini Macro Pad V3 PCB"
-				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
-					(reference "TP9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
 		(at 144.78 167.64 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16005,73 +15767,6 @@
 			(project "Mini Macro Pad V3 PCB"
 				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
 					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 232.41 109.22 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b5f36bc4-dd98-4963-ba95-48726c16e52b")
-		(property "Reference" "TP8"
-			(at 237.236 109.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 237.49 110.4899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 232.41 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 232.41 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 232.41 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c96392e0-e5a4-445e-aaf7-f23ebf55197d")
-		)
-		(instances
-			(project "Mini Macro Pad V3 PCB"
-				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
-					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -18160,6 +17855,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 179.07 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f76aef6b-5c29-43c7-9532-6292901eac2a")
+		(property "Reference" "#PWR055"
+			(at 179.07 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 179.07 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 179.07 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86fb646f-b337-4e4d-98b7-10e3132c03c9")
+		)
+		(instances
+			(project "Mini Macro Pad V3 PCB"
+				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 34.29 19.05 90)
 		(unit 1)
@@ -18555,73 +18316,6 @@
 			(project ""
 				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
 					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 232.41 114.3 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fdfca26f-e742-4703-9177-4fdf5f75e2a5")
-		(property "Reference" "TP10"
-			(at 237.236 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 237.49 115.5699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 232.41 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 232.41 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 232.41 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f66436bd-2eef-4072-84a1-a2325dbaf5c8")
-		)
-		(instances
-			(project "Mini Macro Pad V3 PCB"
-				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
-					(reference "TP10")
 					(unit 1)
 				)
 			)
