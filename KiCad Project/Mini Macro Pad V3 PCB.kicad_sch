@@ -7635,16 +7635,6 @@
 		)
 		(uuid "0203d480-1823-438a-a040-41b2dbb848bf")
 	)
-	(label "USB_BOOTSEL"
-		(at 49.53 104.14 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "034d25c1-23d0-4921-8d8f-8c3d3ecdf52d")
-	)
 	(label "MATRIX_R1"
 		(at 156.21 156.21 180)
 		(effects
@@ -16558,7 +16548,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm"
+		(property "Footprint" "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm_ThermalVias"
 			(at 205.74 109.22 0)
 			(effects
 				(font

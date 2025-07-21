@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 1.5,
-          "width": 1.5
+          "drill": 0.2,
+          "height": 0.5,
+          "width": 0.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -58,7 +58,24 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "hole_clearance|114450000|63745000|508f7143-16ae-431b-b87a-7475a40abcf6|78e4c0ab-066f-4b39-abca-64cdb9e13e0a",
+          ""
+        ],
+        [
+          "hole_clearance|114450000|63745000|dbb9fbbb-c2a3-4e08-91b9-81f68c3c8f15|78e4c0ab-066f-4b39-abca-64cdb9e13e0a",
+          ""
+        ],
+        [
+          "hole_clearance|120550000|63745000|5a285141-5f63-40f5-b038-d92c1afa09dd|e3ed635d-26a1-4b86-a7d2-09a96584b05b",
+          ""
+        ],
+        [
+          "hole_clearance|120550000|63745000|af4b2b6a-6a64-400a-b855-d40093713036|e3ed635d-26a1-4b86-a7d2-09a96584b05b",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -123,8 +140,8 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
-        "min_connection": 0.0,
+        "min_clearance": 0.1,
+        "min_connection": 0.2,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
@@ -135,8 +152,8 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
+        "min_through_hole_diameter": 0.2,
+        "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -524,8 +541,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../../../../Desktop/test pcb export/",
-      "pos_files": "",
+      "plot": "../../../../Desktop/pcb export 2 semi final test/",
+      "pos_files": "../../../../Desktop/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
