@@ -4314,6 +4314,12 @@
 		(uuid "274bf648-bf94-40ff-944a-1e0baf9b4fe7")
 	)
 	(junction
+		(at 35.56 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a44c32d-7ede-42b3-a2bf-3f12e07464e3")
+	)
+	(junction
 		(at 57.15 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4336,12 +4342,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3c7e4480-f486-4fc0-a7fc-d37c44d98d77")
-	)
-	(junction
-		(at 58.42 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "42e3051b-6030-4e1f-982c-b8f6af422771")
 	)
 	(junction
 		(at 134.62 175.26)
@@ -4674,16 +4674,16 @@
 		(uuid "e8b3606c-09f7-469f-9b3b-49060dd99514")
 	)
 	(junction
+		(at 58.42 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2ede1bd-5bce-412f-a09f-fdf117af03e3")
+	)
+	(junction
 		(at 35.56 19.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f322bf33-9d0b-4b68-95e4-00a864d7b186")
-	)
-	(junction
-		(at 35.56 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f3c9ca42-abf4-4285-a8c5-f33b0ac61d18")
 	)
 	(junction
 		(at 109.22 144.78)
@@ -4704,6 +4704,16 @@
 	(no_connect
 		(at 271.78 26.67)
 		(uuid "d6f0525a-615d-407f-8380-0051cae69912")
+	)
+	(wire
+		(pts
+			(xy 35.56 104.14) (xy 35.56 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "014ea0f8-f676-4ba7-877b-1b32263a642f")
 	)
 	(wire
 		(pts
@@ -4764,6 +4774,16 @@
 			(type default)
 		)
 		(uuid "055ea4f2-7d80-4c35-a60f-a1aef1e39d83")
+	)
+	(wire
+		(pts
+			(xy 55.88 104.14) (xy 58.42 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0654d355-e36d-4df3-885a-1ab9356407a5")
 	)
 	(wire
 		(pts
@@ -5037,6 +5057,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 113.03) (xy 48.26 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fa64c27-4232-4665-87a3-396c83630915")
+	)
+	(wire
+		(pts
 			(xy 231.14 96.52) (xy 232.41 96.52)
 		)
 		(stroke
@@ -5284,16 +5314,6 @@
 			(type default)
 		)
 		(uuid "38cdca51-f00a-4082-ad8b-78a5be3dc38e")
-	)
-	(wire
-		(pts
-			(xy 135.89 175.26) (xy 134.62 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a4ae6f2-6c5f-477a-bc8d-ebb8ddfd8c77")
 	)
 	(wire
 		(pts
@@ -5607,16 +5627,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 106.68) (xy 35.56 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "568dbd4c-e542-4049-a3c8-3ae68d3b2e17")
-	)
-	(wire
-		(pts
 			(xy 121.92 185.42) (xy 121.92 195.58)
 		)
 		(stroke
@@ -5817,7 +5827,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 96.52) (xy 58.42 106.68)
+			(xy 58.42 96.52) (xy 58.42 104.14)
 		)
 		(stroke
 			(width 0)
@@ -6407,16 +6417,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 113.03) (xy 48.26 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93a15868-bdb6-4429-94bf-c36d3be19fba")
-	)
-	(wire
-		(pts
 			(xy 231.14 119.38) (xy 232.41 119.38)
 		)
 		(stroke
@@ -6647,16 +6647,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 185.42) (xy 96.52 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5bd8f1a-74b6-433c-992e-f1728003fcfe")
-	)
-	(wire
-		(pts
 			(xy 109.22 165.1) (xy 109.22 175.26)
 		)
 		(stroke
@@ -6697,7 +6687,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 106.68) (xy 58.42 106.68)
+			(xy 35.56 104.14) (xy 50.8 104.14)
 		)
 		(stroke
 			(width 0)
@@ -7127,7 +7117,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 106.68) (xy 58.42 107.95)
+			(xy 58.42 104.14) (xy 58.42 107.95)
 		)
 		(stroke
 			(width 0)
@@ -7614,6 +7604,16 @@
 			(justify right bottom)
 		)
 		(uuid "0203d480-1823-438a-a040-41b2dbb848bf")
+	)
+	(label "USB_BOOTSEL"
+		(at 49.53 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "034d25c1-23d0-4921-8d8f-8c3d3ecdf52d")
 	)
 	(label "MATRIX_R1"
 		(at 156.21 156.21 180)
@@ -18221,6 +18221,74 @@
 			(project "Mini Macro Pad V3 PCB"
 				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
 					(reference "TP18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 53.34 104.14 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "f80fd021-0297-4122-813b-1b697140b3b5")
+		(property "Reference" "R7"
+			(at 53.34 99.06 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "DNF"
+			(at 53.34 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 53.34 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 53.34 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ffc24bc8-3d37-499d-a0f7-0f710e1be6b9")
+		)
+		(pin "2"
+			(uuid "0dc706fd-31e6-418c-9eab-accc3337ca16")
+		)
+		(instances
+			(project "Mini Macro Pad V3 PCB"
+				(path "/2a066f6e-231b-48de-a223-e3e72af8ed07"
+					(reference "R7")
 					(unit 1)
 				)
 			)
