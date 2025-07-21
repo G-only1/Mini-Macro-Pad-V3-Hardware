@@ -11385,7 +11385,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "5da135de-0606-4343-a37a-31ea89422712")
+			(uuid "0279de30-60a4-4d7d-9757-294f8bbff9a2")
 		)
 		(pad "57" smd rect
 			(at 0 0)
@@ -11396,7 +11396,7 @@
 			(pinfunction "GND")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "5da135de-0606-4343-a37a-31ea89422712")
+			(uuid "92d9ee00-43c8-4c80-b647-6d42becc2eb3")
 		)
 		(pad "57" smd rect
 			(at 0 0)
@@ -11407,7 +11407,7 @@
 			(pinfunction "GND")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "5da135de-0606-4343-a37a-31ea89422712")
+			(uuid "dd0bf719-b0c1-4536-93be-56056b72910e")
 		)
 		(pad "57" thru_hole circle
 			(at 1.35 -1.35)
@@ -11421,7 +11421,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "5da135de-0606-4343-a37a-31ea89422712")
+			(uuid "8b58b354-c5f3-4fa9-b7e5-b5c2c0b7232e")
 		)
 		(pad "57" thru_hole circle
 			(at 1.35 1.35)
@@ -11435,7 +11435,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "5da135de-0606-4343-a37a-31ea89422712")
+			(uuid "6151651b-47ca-401f-a034-0b61b512be80")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm.step"
@@ -12849,7 +12849,7 @@
 				)
 			)
 		)
-		(property "Value" "NCP1117"
+		(property "Value" "NCP1117-3.3_SOT223"
 			(at -0.55 -5.8 90)
 			(layer "F.Fab")
 			(uuid "66c2a44b-3998-476e-884c-02aed7bafcd2")
@@ -13295,6 +13295,136 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(footprint "MountingHole:ToolingHole_1.152mm"
+		(layer "F.Cu")
+		(uuid "9b49a1e0-5c73-4d04-91ba-f9fe88d22852")
+		(at 113 118.9)
+		(descr "Tooling Hole 1.152mm, 1.3mm solder mask, JLCPCB specification, https://jlcpcb.com/help/article/How-to-add-tooling-holes-for-PCB-assembly-order")
+		(tags "mounting")
+		(property "Reference" "H2"
+			(at 0 -1.5 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "213e1268-453a-429c-a629-fbad6a2d73a9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 1.6 0)
+			(layer "F.Fab")
+			(uuid "9c1da149-7b98-420c-b81f-2faad9aad50d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "655c2028-8f3a-495e-bca2-e3068b1c46f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "99755eb5-6193-45c0-ba81-d3a0ef179b26")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/bf25fb17-2ba1-4aa6-81a9-b2c90520b5ce")
+		(sheetname "/")
+		(sheetfile "Mini Macro Pad V3 PCB.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 0.7 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "27354c10-583d-4854-aaa4-48d1b107dc8a")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "c0ad9563-ea59-4688-8f95-e4d8cf9bc45d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 1.152 1.152)
+			(drill 1.152)
+			(layers "F&B.Cu" "*.Mask")
+			(solder_mask_margin 0.074)
+			(uuid "1e2eedb6-2a3f-41a9-9f32-878722144ba0")
+		)
+		(zone
+			(net 0)
+			(net_name "")
+			(layers "F.Cu" "B.Cu")
+			(uuid "8d08cf8e-d219-4c11-b07a-9be1dfc6409c")
+			(hatch edge 0.5)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0.25)
+			(filled_areas_thickness no)
+			(keepout
+				(tracks not_allowed)
+				(vias allowed)
+				(pads allowed)
+				(copperpour not_allowed)
+				(footprints not_allowed)
+			)
+			(placement
+				(enabled no)
+				(sheetname "")
+			)
+			(fill
+				(thermal_gap 0.5)
+				(thermal_bridge_width 0.5)
+			)
+			(polygon
+				(pts
+					(xy 113.7 118.9) (xy 113.679659 118.732479) (xy 113.619819 118.574694) (xy 113.523958 118.435814)
+					(xy 113.397645 118.323911) (xy 113.248223 118.245489) (xy 113.084376 118.205104) (xy 112.915624 118.205104)
+					(xy 112.751777 118.245489) (xy 112.602355 118.323911) (xy 112.476042 118.435814) (xy 112.380181 118.574694)
+					(xy 112.320341 118.732479) (xy 112.3 118.9) (xy 112.320341 119.067521) (xy 112.380181 119.225306)
+					(xy 112.476042 119.364186) (xy 112.602355 119.476089) (xy 112.751777 119.554511) (xy 112.915624 119.594896)
+					(xy 113.084376 119.594896) (xy 113.248223 119.554511) (xy 113.397645 119.476089) (xy 113.523958 119.364186)
+					(xy 113.619819 119.225306) (xy 113.679659 119.067521)
+				)
+			)
+		)
+		(embedded_fonts no)
 	)
 	(footprint "Rotary_Encoder:RotaryEncoder_Bourns_Horizontal_PEC12R-2x17F-Sxxxx"
 		(layer "F.Cu")
@@ -14033,7 +14163,7 @@
 			(keep_end_layers yes)
 			(zone_layer_connections)
 			(roundrect_rratio 0.25)
-			(uuid "5eee7a23-36ad-46a2-a499-79bfa346eb6e")
+			(uuid "7546e730-5260-4e7c-a2f0-de520da77a56")
 		)
 		(pad "SH" thru_hole roundrect
 			(at 3.5 8.95 270)
@@ -14558,6 +14688,135 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(footprint "MountingHole:ToolingHole_1.152mm"
+		(layer "F.Cu")
+		(uuid "a1cb2b6a-5e95-4927-9937-6ae9b392d26a")
+		(at 166.5 58.8)
+		(descr "Tooling Hole 1.152mm, 1.3mm solder mask, JLCPCB specification, https://jlcpcb.com/help/article/How-to-add-tooling-holes-for-PCB-assembly-order")
+		(tags "mounting")
+		(property "Reference" "H1"
+			(at 0 -1.5 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6a8c85ef-aef9-4db9-8dc9-1b7595c41568")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 1.6 0)
+			(layer "F.Fab")
+			(uuid "3dab9cd7-11ba-463e-8a89-85809436b283")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f0f17fb-7eb3-4c90-aa6b-54b4af1b00e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "98d147f1-1221-44e5-b318-46d4782ba22e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/bcc32f9c-91aa-4e16-83f9-61027942eb29")
+		(sheetname "/")
+		(sheetfile "Mini Macro Pad V3 PCB.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 0.7 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "69344bbb-bb54-497a-9cfb-fe7ace395556")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "de2acc14-166d-4eed-8f92-b302db9fecdd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 1.152 1.152)
+			(drill 1.152)
+			(layers "F&B.Cu" "*.Mask")
+			(solder_mask_margin 0.074)
+			(uuid "311e1c2a-ba4e-4c67-b255-7389c49dc8ca")
+		)
+		(zone
+			(net 0)
+			(net_name "")
+			(layers "F.Cu" "B.Cu")
+			(uuid "df024f50-412b-4ff4-ae9e-000d459bb5de")
+			(hatch edge 0.5)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0.25)
+			(filled_areas_thickness no)
+			(keepout
+				(tracks not_allowed)
+				(vias allowed)
+				(pads allowed)
+				(copperpour not_allowed)
+				(footprints not_allowed)
+			)
+			(placement
+				(enabled no)
+				(sheetname "")
+			)
+			(fill
+				(thermal_gap 0.5)
+				(thermal_bridge_width 0.5)
+			)
+			(polygon
+				(pts
+					(xy 167.2 58.8) (xy 167.179659 58.632479) (xy 167.119819 58.474694) (xy 167.023958 58.335814) (xy 166.897645 58.223911)
+					(xy 166.748223 58.145489) (xy 166.584376 58.105104) (xy 166.415624 58.105104) (xy 166.251777 58.145489)
+					(xy 166.102355 58.223911) (xy 165.976042 58.335814) (xy 165.880181 58.474694) (xy 165.820341 58.632479)
+					(xy 165.8 58.8) (xy 165.820341 58.967521) (xy 165.880181 59.125306) (xy 165.976042 59.264186) (xy 166.102355 59.376089)
+					(xy 166.251777 59.454511) (xy 166.415624 59.494896) (xy 166.584376 59.494896) (xy 166.748223 59.454511)
+					(xy 166.897645 59.376089) (xy 167.023958 59.264186) (xy 167.119819 59.125306) (xy 167.179659 58.967521)
+				)
+			)
+		)
+		(embedded_fonts no)
 	)
 	(footprint "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
 		(layer "F.Cu")
@@ -16722,6 +16981,136 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(footprint "MountingHole:ToolingHole_1.152mm"
+		(layer "F.Cu")
+		(uuid "d7a24f32-8415-4c86-ba57-a0c8e1b98804")
+		(at 166.05 120.4)
+		(descr "Tooling Hole 1.152mm, 1.3mm solder mask, JLCPCB specification, https://jlcpcb.com/help/article/How-to-add-tooling-holes-for-PCB-assembly-order")
+		(tags "mounting")
+		(property "Reference" "H3"
+			(at 0 -1.5 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2cdb4043-1ce4-4141-8283-4b3987961834")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 1.6 0)
+			(layer "F.Fab")
+			(uuid "4c390025-e2ce-4dde-a502-0d4bb350cae1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ecb1e628-4498-4706-ad35-2e73b5037bff")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04ccad65-fbfb-4bf9-ae1e-96c5e91fd9ce")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/34c41980-20d4-440a-8fd0-012bc4afbad9")
+		(sheetname "/")
+		(sheetfile "Mini Macro Pad V3 PCB.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 0.7 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "70c280b5-ecf5-48f5-a73c-3f4967c6ab92")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "1ea9541a-cd60-40ee-8f75-7a0146bf1bfc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 1.152 1.152)
+			(drill 1.152)
+			(layers "F&B.Cu" "*.Mask")
+			(solder_mask_margin 0.074)
+			(uuid "f2651d85-a799-4671-ab54-be0fd522b754")
+		)
+		(zone
+			(net 0)
+			(net_name "")
+			(layers "F.Cu" "B.Cu")
+			(uuid "33b3e4ba-23ad-495d-a26b-4d489d6638e5")
+			(hatch edge 0.5)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0.25)
+			(filled_areas_thickness no)
+			(keepout
+				(tracks not_allowed)
+				(vias allowed)
+				(pads allowed)
+				(copperpour not_allowed)
+				(footprints not_allowed)
+			)
+			(placement
+				(enabled no)
+				(sheetname "")
+			)
+			(fill
+				(thermal_gap 0.5)
+				(thermal_bridge_width 0.5)
+			)
+			(polygon
+				(pts
+					(xy 166.75 120.4) (xy 166.729659 120.232479) (xy 166.669819 120.074694) (xy 166.573958 119.935814)
+					(xy 166.447645 119.823911) (xy 166.298223 119.745489) (xy 166.134376 119.705104) (xy 165.965624 119.705104)
+					(xy 165.801777 119.745489) (xy 165.652355 119.823911) (xy 165.526042 119.935814) (xy 165.430181 120.074694)
+					(xy 165.370341 120.232479) (xy 165.35 120.4) (xy 165.370341 120.567521) (xy 165.430181 120.725306)
+					(xy 165.526042 120.864186) (xy 165.652355 120.976089) (xy 165.801777 121.054511) (xy 165.965624 121.094896)
+					(xy 166.134376 121.094896) (xy 166.298223 121.054511) (xy 166.447645 120.976089) (xy 166.573958 120.864186)
+					(xy 166.669819 120.725306) (xy 166.729659 120.567521)
+				)
+			)
+		)
+		(embedded_fonts no)
 	)
 	(footprint "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
 		(layer "F.Cu")
@@ -19895,7 +20284,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "538dfe29-5520-41aa-b7cd-5633c1b429f1")
+			(uuid "93107a2f-8e75-49d9-9d20-26db7ab1d447")
 		)
 		(pad "SH" thru_hole roundrect
 			(at 3.5 8.95 270)
@@ -21920,11 +22309,11 @@
 	(footprint "TestPoint:TestPoint_Pad_1.5x1.5mm"
 		(layer "B.Cu")
 		(uuid "30c59d73-5049-4d3b-9ac2-acced017f4e5")
-		(at 107 119.888888)
+		(at 107 119.888888 90)
 		(descr "SMD rectangular pad as test Point, square 1.5mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP18"
-			(at 0 1.648 0)
+			(at 0 1.648 90)
 			(layer "B.SilkS")
 			(uuid "1121200e-9655-48e3-85ed-5dbbf0ee8a77")
 			(effects
@@ -21936,7 +22325,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 0 -1.75 0)
+			(at 0 -1.75 90)
 			(layer "B.Fab")
 			(uuid "5a035067-3f38-45f8-9fb1-8f8d7a6d4bc7")
 			(effects
@@ -21948,7 +22337,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -21962,7 +22351,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -21981,26 +22370,6 @@
 		(sheetfile "Mini Macro Pad V3 PCB.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
-			(start -0.95 -0.95)
-			(end -0.95 0.95)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "695e1ea2-8494-4e32-8b0d-8e6ea23820d4")
-		)
-		(fp_line
-			(start -0.95 0.95)
-			(end 0.95 0.95)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "5bd14538-6754-4ec7-ab5d-55fd6163d1c2")
-		)
-		(fp_line
 			(start 0.95 -0.95)
 			(end -0.95 -0.95)
 			(stroke
@@ -22009,6 +22378,16 @@
 			)
 			(layer "B.SilkS")
 			(uuid "c3ab53da-b362-4a6d-b5ee-f5318a0ee296")
+		)
+		(fp_line
+			(start -0.95 -0.95)
+			(end -0.95 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "695e1ea2-8494-4e32-8b0d-8e6ea23820d4")
 		)
 		(fp_line
 			(start 0.95 0.95)
@@ -22021,24 +22400,14 @@
 			(uuid "97cb2de8-cc68-4346-8b86-5f5a8e25dec3")
 		)
 		(fp_line
-			(start -1.25 1.25)
-			(end -1.25 -1.25)
+			(start -0.95 0.95)
+			(end 0.95 0.95)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "B.CrtYd")
-			(uuid "8297ce8a-dd84-4bd5-bb90-97fb75a14b72")
-		)
-		(fp_line
-			(start -1.25 1.25)
-			(end 1.25 1.25)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "98a10573-dc41-4ea6-8094-eb8ad7f8e726")
+			(layer "B.SilkS")
+			(uuid "5bd14538-6754-4ec7-ab5d-55fd6163d1c2")
 		)
 		(fp_line
 			(start 1.25 -1.25)
@@ -22060,8 +22429,28 @@
 			(layer "B.CrtYd")
 			(uuid "ffa3e5d4-8dfc-47e2-882a-faf4aa32e11b")
 		)
+		(fp_line
+			(start -1.25 1.25)
+			(end -1.25 -1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "8297ce8a-dd84-4bd5-bb90-97fb75a14b72")
+		)
+		(fp_line
+			(start -1.25 1.25)
+			(end 1.25 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "98a10573-dc41-4ea6-8094-eb8ad7f8e726")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.65 0)
+			(at 0 1.65 90)
 			(layer "B.Fab")
 			(uuid "646dd166-6d9e-4dc8-b22f-9dacdc92f1f4")
 			(effects
@@ -22073,7 +22462,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at 0 0)
+			(at 0 0 90)
 			(size 1.5 1.5)
 			(property pad_prop_testpoint)
 			(layers "B.Cu" "B.Mask")
@@ -22926,12 +23315,12 @@
 		(descr "SMD rectangular pad as test Point, square 1.5mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP17"
-			(at 0 1.648 0)
+			(at 0 -1.938888 0)
 			(layer "B.SilkS")
 			(uuid "50a0039f-5407-4028-b297-feafb69db3d6")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.9 0.9)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -23590,11 +23979,11 @@
 	(footprint "TestPoint:TestPoint_Pad_1.5x1.5mm"
 		(layer "B.Cu")
 		(uuid "a18fc8d6-b8ad-427b-b8f5-96ca8fbff5e7")
-		(at 107 116.388888)
+		(at 107 116.388888 90)
 		(descr "SMD rectangular pad as test Point, square 1.5mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP19"
-			(at 0 1.648 0)
+			(at 0 1.648 90)
 			(layer "B.SilkS")
 			(uuid "22e09a50-174f-4742-9d97-6e113c732709")
 			(effects
@@ -23606,7 +23995,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 0 -1.75 0)
+			(at 0 -1.75 90)
 			(layer "B.Fab")
 			(uuid "09104d6e-f34a-4084-b191-fcbc8c02ba26")
 			(effects
@@ -23618,7 +24007,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -23632,7 +24021,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -23651,26 +24040,6 @@
 		(sheetfile "Mini Macro Pad V3 PCB.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
-			(start -0.95 -0.95)
-			(end -0.95 0.95)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "12e32b94-22a8-4a16-8d14-9eceb77fe8c9")
-		)
-		(fp_line
-			(start -0.95 0.95)
-			(end 0.95 0.95)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "aae8a25a-96ea-446e-976c-d98c7abbb7a2")
-		)
-		(fp_line
 			(start 0.95 -0.95)
 			(end -0.95 -0.95)
 			(stroke
@@ -23679,6 +24048,16 @@
 			)
 			(layer "B.SilkS")
 			(uuid "6873a73b-11a9-44ba-9d40-978928f67c08")
+		)
+		(fp_line
+			(start -0.95 -0.95)
+			(end -0.95 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "12e32b94-22a8-4a16-8d14-9eceb77fe8c9")
 		)
 		(fp_line
 			(start 0.95 0.95)
@@ -23691,24 +24070,14 @@
 			(uuid "82a7d8f3-6b51-4161-a5aa-4283721c145b")
 		)
 		(fp_line
-			(start -1.25 1.25)
-			(end -1.25 -1.25)
+			(start -0.95 0.95)
+			(end 0.95 0.95)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "B.CrtYd")
-			(uuid "b9509607-dc3e-465f-bd7a-f6151cb2aed8")
-		)
-		(fp_line
-			(start -1.25 1.25)
-			(end 1.25 1.25)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "5303710f-4f48-443a-acf2-d5c22ce60350")
+			(layer "B.SilkS")
+			(uuid "aae8a25a-96ea-446e-976c-d98c7abbb7a2")
 		)
 		(fp_line
 			(start 1.25 -1.25)
@@ -23730,8 +24099,28 @@
 			(layer "B.CrtYd")
 			(uuid "4bea59f5-2e0e-4133-af71-47bd73c696ed")
 		)
+		(fp_line
+			(start -1.25 1.25)
+			(end -1.25 -1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "b9509607-dc3e-465f-bd7a-f6151cb2aed8")
+		)
+		(fp_line
+			(start -1.25 1.25)
+			(end 1.25 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "5303710f-4f48-443a-acf2-d5c22ce60350")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.65 0)
+			(at 0 1.65 90)
 			(layer "B.Fab")
 			(uuid "3c097537-e1ad-40ea-8be1-5252e2ed2908")
 			(effects
@@ -23743,7 +24132,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at 0 0)
+			(at 0 0 90)
 			(size 1.5 1.5)
 			(property pad_prop_testpoint)
 			(layers "B.Cu" "B.Mask")
@@ -23924,7 +24313,7 @@
 	(footprint "TestPoint:TestPoint_Pad_1.5x1.5mm"
 		(layer "B.Cu")
 		(uuid "ccf6479b-9997-45ab-9326-5c80f3ec9e38")
-		(at 135 62.5 -90)
+		(at 135 63 -90)
 		(descr "SMD rectangular pad as test Point, square 1.5mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP28"
@@ -24091,7 +24480,7 @@
 	(footprint "TestPoint:TestPoint_Pad_1.5x1.5mm"
 		(layer "B.Cu")
 		(uuid "cddc4a39-1d22-4f46-a3ab-930b7e5f402a")
-		(at 131.5 62.65 -90)
+		(at 131.5 63 -90)
 		(descr "SMD rectangular pad as test Point, square 1.5mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP23"
@@ -24933,6 +25322,66 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "1280b59d-e1eb-45bd-8305-f95945dc8ffc")
+	)
+	(gr_text "JLCJLCJLCJLC"
+		(at 126.4 116.85 0)
+		(layer "F.Cu")
+		(uuid "df2fc21a-ebf0-4e06-8289-ce1d62192c37")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(gr_text "Designed by Gavin Strand\n9195874@gmail.com"
+		(at 114.05 117.3 180)
+		(layer "B.SilkS")
+		(uuid "1569cc26-98e3-4f61-82b3-5f6630b0abd0")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "REV 1.0"
+		(at 167.3 100.55 90)
+		(layer "B.SilkS")
+		(uuid "28289d04-7ec7-4821-a051-3f50e570001c")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "JLCJLCJLCJLC"
+		(at 167.45 59.65 90)
+		(layer "B.SilkS")
+		(uuid "eeb9db61-24cb-4cb2-b776-928e5b7ecabd")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Mini Macro Pad V3"
+		(at 108.65 57.4 90)
+		(layer "B.SilkS")
+		(uuid "f4069ebd-041c-4350-939f-33e64e529149")
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.5)
+			)
+			(justify left bottom mirror)
+		)
 	)
 	(segment
 		(start 117.686573 100.472183)
@@ -30551,16 +31000,8 @@
 		(uuid "299b1690-bb82-4ffa-801e-c524d89ddc4f")
 	)
 	(segment
-		(start 123.6 85.301)
-		(end 122.4 85.301)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 48)
-		(uuid "00b4f6fd-f6ae-4943-8cdd-94d6f7dd7fde")
-	)
-	(segment
-		(start 123.5 85.301)
-		(end 120.182333 85.301)
+		(start 120.182333 85.301)
+		(end 126.501 85.301)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 48)
@@ -30597,14 +31038,6 @@
 		(layer "B.Cu")
 		(net 48)
 		(uuid "f08ed49d-a4bd-4c78-bd6d-5d1db8e70cb9")
-	)
-	(segment
-		(start 126.501 85.301)
-		(end 123.6 85.301)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 48)
-		(uuid "f96bd012-5abf-4073-9548-36854c06c016")
 	)
 	(segment
 		(start 121.685278 93.845552)
@@ -30893,14 +31326,6 @@
 		(layer "F.Cu")
 		(net 57)
 		(uuid "136efb16-6c2f-43d5-a8d2-49c02975543c")
-	)
-	(segment
-		(start 117.5 98.5625)
-		(end 117.576762 98.5625)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 57)
-		(uuid "33f65745-cf0d-40b3-b899-b1f8a8ed520a")
 	)
 	(segment
 		(start 117.082363 98.882363)
