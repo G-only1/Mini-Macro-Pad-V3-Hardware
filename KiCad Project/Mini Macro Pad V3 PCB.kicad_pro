@@ -684,7 +684,7 @@
       "plot": "jlcpcb/gerber/",
       "pos_files": "../../../../Desktop/Mini Macro Pad V3 REV 1.0 FINAL Export/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Mini Macro Pad V3 REV 1.0 PCB.step",
       "svg": "",
       "vrml": ""
     },
